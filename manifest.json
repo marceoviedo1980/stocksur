@@ -1,4 +1,5 @@
 {
+  "id": "stock-heas",
   "name": "Stock de Medicamentos - Hospital El Alto Sur",
   "short_name": "Stock HEAS",
   "description": "Stock de medicamentos e insumos del Hospital El Alto Sur",
@@ -26,5 +27,6 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "scope": "./"
 }
