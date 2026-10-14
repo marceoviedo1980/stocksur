@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#1a5276" />
+  <meta name="theme-color" content="#132077" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Stock HEAS" />
@@ -24,9 +24,9 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --blue-dark: #1a5276;
-      --blue-mid: #2471a3;
-      --blue-light: #d6eaf8;
+      --blue-dark: #132077;
+      --blue-mid: #018e44;
+      --blue-light: #dde1f4;
       --accent: #e74c3c;
       --accent-light: #fdecea;
       --text: #1c2833;
@@ -224,6 +224,9 @@
       align-items: center;
       gap: 6px;
     }
+
+    .card-obs.ok { background: #e6f4ec; color: #0b6b34; }
+    .detail-obs.ok .detail-value { color: #0b6b34; background: #e6f4ec; }
 
     .empty {
       text-align: center;
@@ -544,7 +547,7 @@ function render() {
           </div>
           <div class="stock ${item.cantidad === 0 ? 'cero' : ''}">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}${item.cantidad === 0 ? '' : '<small>en stock</small>'}</div>
         </div>
-        ${hasObs ? `<div class="card-obs">⚠️ ${item.observacion}</div>` : ''}
+        ${item.observacion ? (hasObs ? `<div class="card-obs">⚠️ ${item.observacion}</div>` : `<div class="card-obs ok">✓ ${item.observacion}</div>`) : ''}
       </div>`;
   }).join('');
 }
@@ -568,11 +571,12 @@ function openModal(idx) {
       <div class="detail-value">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}</div>
     </div>`;
 
-  if (tieneRestriccion(item)) {
+  if (item.observacion) {
+    const r = tieneRestriccion(item);
     bodyHTML += `
-      <div class="detail-row detail-obs">
+      <div class="detail-row detail-obs ${r ? '' : 'ok'}">
         <div class="detail-label">Observación / Restricción</div>
-        <div class="detail-value">⚠️ ${item.observacion}</div>
+        <div class="detail-value">${r ? '⚠️' : '✓'} ${item.observacion}</div>
       </div>`;
   }
 

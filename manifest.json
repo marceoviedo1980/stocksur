@@ -4,8 +4,8 @@
   "description": "Stock de medicamentos e insumos del Hospital El Alto Sur",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#1a5276",
-  "theme_color": "#1a5276",
+  "background_color": "#132077",
+  "theme_color": "#132077",
   "orientation": "portrait",
   "icons": [
     {
