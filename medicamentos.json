@@ -6,7 +6,8 @@
   "forma": "Inyectable",
   "concentracion": "10%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -15,7 +16,8 @@
   "forma": "Crema dérmica",
   "concentracion": "5%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -24,7 +26,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -33,7 +36,8 @@
   "forma": "Comprimido",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -42,7 +46,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg/ml (2 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -51,7 +56,8 @@
   "forma": "Comprimido",
   "concentracion": "5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -60,7 +66,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -69,7 +76,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -78,7 +86,8 @@
   "forma": "inyectable",
   "concentracion": "5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -87,7 +96,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 18G x 1 1/2\"",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -96,7 +106,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Plexos A-25",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -105,7 +116,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N°18 x 3 1/4\" Tuohy",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -114,7 +126,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 22",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -123,7 +136,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Aguja de tipo Jamshidi conica",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -132,7 +146,8 @@
   "forma": "Pieza",
   "concentracion": "14G x 10 cm",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -141,7 +156,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Aguja de 16 Gauge por 70 mm",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -150,7 +166,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Aguja de 16 Gauge por 100 mm",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -159,7 +176,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Uso diferentes proced. adulto",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -168,7 +186,8 @@
   "forma": "Inyectable",
   "concentracion": "20%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -177,7 +196,8 @@
   "forma": "Inyectable",
   "concentracion": "500mg /2 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -186,7 +206,8 @@
   "forma": "Comprimido",
   "concentracion": "200 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -195,7 +216,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -204,7 +226,8 @@
   "forma": "Comprimido",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -213,7 +236,8 @@
   "forma": "Suspensión",
   "concentracion": "500 mg/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -222,7 +246,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -231,7 +256,8 @@
   "forma": "Suspensión",
   "concentracion": "250 mg + Según disponibilidad",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -240,7 +266,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -249,7 +276,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -258,7 +286,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -267,7 +296,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -276,7 +306,8 @@
   "forma": "Suspensión",
   "concentracion": "200 mg/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -285,7 +316,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -294,7 +326,8 @@
   "forma": "Crema o Pomada",
   "concentracion": "500 UI + 5 mg/g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -303,7 +336,8 @@
   "forma": "Inyectable",
   "concentracion": "2.400.000 UI",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -312,7 +346,8 @@
   "forma": "Inyectable",
   "concentracion": "1.200.000 UI",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -321,7 +356,8 @@
   "forma": "Inyectable",
   "concentracion": "4 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -330,7 +366,8 @@
   "forma": "Inyectable",
   "concentracion": "8%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -339,7 +376,8 @@
   "forma": "Pieza",
   "concentracion": "Neonatal - siliconado",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -348,7 +386,8 @@
   "forma": "Pieza",
   "concentracion": "Adulto siliconado",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -357,7 +396,8 @@
   "forma": "Pieza",
   "concentracion": "Pediátrica",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -366,7 +406,8 @@
   "forma": "Comprimido",
   "concentracion": "5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -375,7 +416,8 @@
   "forma": "Bolsa estéril",
   "concentracion": "Con equipo 2000ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -384,7 +426,8 @@
   "forma": "Inyectable",
   "concentracion": "0,5%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -393,7 +436,8 @@
   "forma": "Inyectable",
   "concentracion": "20 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -402,7 +446,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -411,7 +456,8 @@
   "forma": "inyectable",
   "concentracion": "100 mcg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -420,7 +466,8 @@
   "forma": "Adulto Juego x 5 piezas",
   "concentracion": "N°1.5 N°2 N°3 N°4 N°5",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -429,7 +476,8 @@
   "forma": "Comprimido",
   "concentracion": "200 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -438,7 +486,8 @@
   "forma": "Comprimido",
   "concentracion": "12,5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -447,7 +496,8 @@
   "forma": "Comprimido",
   "concentracion": "6,25 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -456,7 +506,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Triple lumen Set 7FRx12\"(30cm)",
   "cantidad": null,
-  "observacion": "Solo UTI y Emergencia"
+  "observacion": "Solo UTI y Emergencia",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -465,7 +516,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 18Gx1 1/2\"c/aletas de fij.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -474,7 +526,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 20Gx1 1/2\" c/aletas de fij.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -483,7 +536,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 22 G x 1\"c/aletas de fij.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -492,7 +546,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 24 Gx1/2\" c/aletas de fij.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -501,7 +556,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -510,7 +566,8 @@
   "forma": "Comprimido o Cápsula",
   "concentracion": "400 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -519,7 +576,8 @@
   "forma": "Suspensión",
   "concentracion": "100 mg/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -528,7 +586,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -537,7 +596,8 @@
   "forma": "Cápsula o Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -546,7 +606,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -555,7 +616,8 @@
   "forma": "Cápsula o Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -564,7 +626,8 @@
   "forma": "Inyectable",
   "concentracion": "1 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -573,7 +636,8 @@
   "forma": "Inyectable",
   "concentracion": "200 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -582,7 +646,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Material plástico resistente",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -591,7 +656,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -600,7 +666,8 @@
   "forma": "Suspensión",
   "concentracion": "250 mg/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -609,7 +676,8 @@
   "forma": "Inyectable",
   "concentracion": "600 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -618,7 +686,8 @@
   "forma": "Comprimido ranurado",
   "concentracion": "2 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -627,7 +696,8 @@
   "forma": "Comprimido",
   "concentracion": "4 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -636,7 +706,8 @@
   "forma": "Inyectable",
   "concentracion": "20%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -645,7 +716,8 @@
   "forma": "Inyectable",
   "concentracion": "20%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -654,7 +726,8 @@
   "forma": "Inyectable",
   "concentracion": "20%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -663,7 +736,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -672,7 +746,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -681,7 +756,8 @@
   "forma": "Comprimido o Capsula",
   "concentracion": "Según concentración estándar",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -690,7 +766,8 @@
   "forma": "Inyectable",
   "concentracion": "Según disponibilidad (50 ml)",
   "cantidad": null,
-  "observacion": "Solo para pacientes del HEAS previa autorizacion de imagenologia"
+  "observacion": "Solo para pacientes del HEAS previa autorizacion de imagenologia",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -699,7 +776,8 @@
   "forma": "Comprimido",
   "concentracion": "400 mg + 80 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -708,7 +786,8 @@
   "forma": "Comprimido",
   "concentracion": "800 mg + 160 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -717,7 +796,8 @@
   "forma": "Inyectable",
   "concentracion": "4 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -726,7 +806,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -735,7 +816,8 @@
   "forma": "Pomada o Gel",
   "concentracion": "1%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -744,7 +826,8 @@
   "forma": "Cápsula",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -753,7 +836,8 @@
   "forma": "Cápsula o Comprimido",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -762,7 +846,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Tamaño 1 pulgada",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -771,7 +856,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Tamaño 1/2 pulgada",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -780,7 +866,8 @@
   "forma": "Sobre",
   "concentracion": "De espuma para adulto",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -789,7 +876,8 @@
   "forma": "Inyectable",
   "concentracion": "1 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -798,7 +886,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Con depósito",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -807,7 +896,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Bolsa C/cámara goteo flexible",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -816,7 +906,8 @@
   "forma": "Sobre estéril",
   "concentracion": "C/control d goteo, aguja Nº 21",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -825,7 +916,8 @@
   "forma": "Comprimido",
   "concentracion": "0,2 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -834,7 +926,8 @@
   "forma": "Inyectable",
   "concentracion": "0,2 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -843,7 +936,8 @@
   "forma": "Comprimido",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -852,7 +946,8 @@
   "forma": "Inyectable",
   "concentracion": "50 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -861,7 +956,8 @@
   "forma": "Inyectable",
   "concentracion": "0,05 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -870,7 +966,8 @@
   "forma": "Inyectable",
   "concentracion": "0,05 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -879,7 +976,8 @@
   "forma": "Inyectable",
   "concentracion": "300 mcg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -888,7 +986,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Para respiradores para oxígeno",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -897,7 +996,8 @@
   "forma": "Comprimido",
   "concentracion": "5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -906,7 +1006,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -915,7 +1016,8 @@
   "forma": "Inyectable",
   "concentracion": "200 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -924,7 +1026,8 @@
   "forma": "Comprimido o Cápsula",
   "concentracion": "150 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -933,7 +1036,8 @@
   "forma": "Con tapa rosca",
   "concentracion": "Pieza",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -942,7 +1046,8 @@
   "forma": "Comprimido ranurado",
   "concentracion": "40 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -951,7 +1056,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -960,7 +1066,8 @@
   "forma": "Comprimido",
   "concentracion": "5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -969,7 +1076,8 @@
   "forma": "Inyectable",
   "concentracion": "10%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -978,7 +1086,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 6 1/2 puño largo",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -987,7 +1096,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 7 1/2 puño largo",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -996,7 +1106,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 7 puño largo",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1005,7 +1116,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 8 puño largo",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1014,7 +1126,8 @@
   "forma": "Inyectable",
   "concentracion": "Según disponibilidad",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1023,7 +1136,8 @@
   "forma": "Inyectable",
   "concentracion": "5.000 UI/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1032,7 +1146,8 @@
   "forma": "Comprimido ranurado",
   "concentracion": "50 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1041,7 +1156,8 @@
   "forma": "Crema o Pomada",
   "concentracion": "1%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1050,7 +1166,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1059,7 +1176,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 21",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1068,7 +1186,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 11",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1077,7 +1196,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 15",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1086,7 +1206,8 @@
   "forma": "Suspensión",
   "concentracion": "100 mg/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1095,7 +1216,8 @@
   "forma": "Comprimido",
   "concentracion": "400 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1104,7 +1226,8 @@
   "forma": "Pieza",
   "concentracion": "Pieza",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1113,7 +1236,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg + 500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1122,7 +1246,8 @@
   "forma": "Inyectable",
   "concentracion": "100 UI/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1131,7 +1256,8 @@
   "forma": "Inyectable",
   "concentracion": "100 UI/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1140,7 +1266,8 @@
   "forma": "Sobre estéril",
   "concentracion": "10ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1149,7 +1276,8 @@
   "forma": "Sobre estéril",
   "concentracion": "20ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1158,7 +1286,8 @@
   "forma": "Sobre estéril",
   "concentracion": "3 ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1167,7 +1296,8 @@
   "forma": "Sobre estéril",
   "concentracion": "50 ml Luer",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1176,7 +1306,8 @@
   "forma": "Sobre estéril",
   "concentracion": "5ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1185,7 +1316,8 @@
   "forma": "Sobre estéril",
   "concentracion": "1 ml c/aguja fija N° 29G",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1194,7 +1326,8 @@
   "forma": "Inyecable",
   "concentracion": "50 mg/ml",
   "cantidad": null,
-  "observacion": "Solo Quirofano"
+  "observacion": "Solo Quirofano",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1203,7 +1336,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1212,7 +1346,8 @@
   "forma": "Inyectable",
   "concentracion": "30 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1221,7 +1356,8 @@
   "forma": "Comprimido",
   "concentracion": "250 mg + 25 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1230,7 +1366,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1239,7 +1376,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1248,7 +1386,8 @@
   "forma": "Gel o Jalea",
   "concentracion": "2%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1257,7 +1396,8 @@
   "forma": "Inyectable",
   "concentracion": "2%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1266,7 +1406,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Sin alargador",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1275,7 +1416,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Con alargador 50 cm - 10cm",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1284,7 +1426,8 @@
   "forma": "Comprimido",
   "concentracion": "50 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1293,7 +1436,8 @@
   "forma": "Juego",
   "concentracion": "Juego",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1302,7 +1446,8 @@
   "forma": "Pieza",
   "concentracion": "Adulto N° 3, N° 4, N° 5",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1311,7 +1456,8 @@
   "forma": "Pieza",
   "concentracion": "Para adultos",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1320,7 +1466,8 @@
   "forma": "Pieza",
   "concentracion": "Para pediatrica",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1329,7 +1476,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1338,7 +1486,8 @@
   "forma": "Inyectable",
   "concentracion": "150 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1347,7 +1496,8 @@
   "forma": "Inyectable",
   "concentracion": "1,5 g/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1356,7 +1506,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1365,7 +1516,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1374,7 +1526,8 @@
   "forma": "Comprimido",
   "concentracion": "850 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1383,7 +1536,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1392,7 +1546,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1401,7 +1556,8 @@
   "forma": "Inyectable",
   "concentracion": "10mg / 2ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1410,7 +1566,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1419,7 +1576,8 @@
   "forma": "Inyectable",
   "concentracion": "50 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1428,7 +1586,8 @@
   "forma": "Comprimido",
   "concentracion": "2,5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1437,7 +1596,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1446,7 +1606,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1455,7 +1616,8 @@
   "forma": "Sobre estéril",
   "concentracion": "c/deposito rigido 100ml-150ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1464,7 +1626,8 @@
   "forma": "Inyectable",
   "concentracion": "15 mg/3 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1473,7 +1636,8 @@
   "forma": "Cápsula o Comprimido",
   "concentracion": "10 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1482,7 +1646,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1491,7 +1656,8 @@
   "forma": "Comprimido",
   "concentracion": "Según concentración estándar",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1500,7 +1666,8 @@
   "forma": "Jarabe",
   "concentracion": "Según concentración estándar",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1509,7 +1676,8 @@
   "forma": "Inyectable",
   "concentracion": "0,5 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1518,7 +1686,8 @@
   "forma": "Suspensión",
   "concentracion": "500.000 UI/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1527,7 +1696,8 @@
   "forma": "Comprimido",
   "concentracion": "100 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1536,7 +1706,8 @@
   "forma": "Inyectable",
   "concentracion": "1 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1545,7 +1716,8 @@
   "forma": "Cápsula",
   "concentracion": "20 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1554,7 +1726,8 @@
   "forma": "Inyectable",
   "concentracion": "40 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1563,7 +1736,8 @@
   "forma": "Inyectable",
   "concentracion": "8 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1572,7 +1746,8 @@
   "forma": "Gas",
   "concentracion": "93% - 99%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1581,7 +1756,8 @@
   "forma": "Inyectable",
   "concentracion": "5 UI/ml o 10 UI/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1590,7 +1766,8 @@
   "forma": "Gotas",
   "concentracion": "100 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1599,7 +1776,8 @@
   "forma": "Inyectable",
   "concentracion": "1 gr",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1608,7 +1786,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1617,7 +1796,8 @@
   "forma": "Jarabe",
   "concentracion": "120 mg/5 ml o 125 mg/5 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1626,7 +1806,8 @@
   "forma": "Inyectable",
   "concentracion": "4 g/500 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1635,7 +1816,8 @@
   "forma": "Comprimido ranurado",
   "concentracion": "20 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1644,7 +1826,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1653,7 +1836,8 @@
   "forma": "Inyectable",
   "concentracion": "5 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1662,7 +1846,8 @@
   "forma": "Caja",
   "concentracion": "Pediátrica c/bolsa reservorio",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1671,7 +1856,8 @@
   "forma": "Cápsula o Perla",
   "concentracion": "200.000 UI",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1680,7 +1866,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1689,7 +1876,8 @@
   "forma": "Aerosol",
   "concentracion": "25 mcg + 125 mcg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1698,7 +1886,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 2/0 10 hebras x 75 cm",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1707,7 +1896,8 @@
   "forma": "Solución",
   "concentracion": "250 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1716,7 +1906,8 @@
   "forma": "Solucion parenteral de gran vo",
   "concentracion": "10% (500 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1725,7 +1916,8 @@
   "forma": "Solucion parenteral de gran vo",
   "concentracion": "50% (500 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1734,7 +1926,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "5% (1.000 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1743,7 +1936,8 @@
   "forma": "Solución paren de gran volu",
   "concentracion": "5% (500 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1752,7 +1946,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "5% (500 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1761,7 +1956,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "50% (500 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1770,7 +1966,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "20% (500 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1779,7 +1976,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "0,9% (1.000 ml)",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1788,7 +1986,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "1000 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1797,7 +1996,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "1000 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1806,7 +2006,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "500 ml",
   "cantidad": null,
-  "observacion": "Solo Procedimiento de transfusion"
+  "observacion": "Solo Procedimiento de transfusion",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1815,7 +2016,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "1000 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1824,7 +2026,8 @@
   "forma": "Sobre estéril",
   "concentracion": "C/sist. control de flujo N°14",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1833,7 +2036,8 @@
   "forma": "Sobre estéril",
   "concentracion": "C/control de flujo N° 6",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1842,7 +2046,8 @@
   "forma": "Sobre estéril",
   "concentracion": "C/control de flujo N° 8",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1851,7 +2056,8 @@
   "forma": "Sobre estéril",
   "concentracion": "C/sist. control de flujo N° 12",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1860,7 +2066,8 @@
   "forma": "Sobre estéril",
   "concentracion": "2 vías N° 16 c/pico luer",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1869,7 +2076,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 14",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1878,7 +2086,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Sonda Levin Polietileno N° 16",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1887,7 +2096,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 6",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1896,7 +2106,8 @@
   "forma": "Sobre esteril",
   "concentracion": "Pieza",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1905,7 +2116,8 @@
   "forma": "Inyectable",
   "concentracion": "10%",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1914,7 +2126,8 @@
   "forma": "Comprimido",
   "concentracion": "200 mg + 0,5 mg + 150 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1923,7 +2136,8 @@
   "forma": "Inyectable",
   "concentracion": "25 a 35 mg/ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -1932,7 +2146,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 4/0 c/aguja",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1941,7 +2156,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 0 c/aguja",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1950,7 +2166,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 0 c/aguja 3.5 cm. 1/2 circ.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1959,7 +2176,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 1 c/aguja 4.8 cm 1/2 circ.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1968,7 +2186,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 0 c/aguja 4.0 cm.",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1977,7 +2196,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 1 c/aguja",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1986,7 +2206,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 2/0 c/aguja 2.5 cm 1/2 circ",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -1995,7 +2216,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 1 c/aguja",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2004,7 +2226,8 @@
   "forma": "Sobre esteril",
   "concentracion": "N°3/0 c/aguja 2.5 cm cuticular",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2013,7 +2236,8 @@
   "forma": "Sobre esteril",
   "concentracion": "N°2/0 c/agu 3cm cuticular",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2022,7 +2246,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 0c/a 4cm 1/2círc",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2031,7 +2256,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N°1 c/aguja",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2040,7 +2266,8 @@
   "forma": "Pieza",
   "concentracion": "Pieza",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2049,7 +2276,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg/2 ml",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2058,7 +2286,8 @@
   "forma": "Comprimido",
   "concentracion": "50 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2067,7 +2296,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 3 sin balón",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -2076,7 +2306,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 3.5 sin balón",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -2085,7 +2316,8 @@
   "forma": "Sobre esteril",
   "concentracion": "N° 6.5 c/balón de baja presión",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2094,7 +2326,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 2.5 sin balón",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "sus",
@@ -2103,7 +2336,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N°7 con balón de baja presión",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2112,7 +2346,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N°7.5 c/balón de baja presión",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2121,7 +2356,8 @@
   "forma": "Ungüento o crema",
   "concentracion": "Según disponibilidad",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2130,7 +2366,8 @@
   "forma": "Rollo",
   "concentracion": "4\"",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2139,7 +2376,8 @@
   "forma": "Rollo",
   "concentracion": "4\"",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2148,7 +2386,8 @@
   "forma": "Rollo",
   "concentracion": "6\"",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": false
  },
  {
   "programa": "sus",
@@ -2157,7 +2396,8 @@
   "forma": "Comprimido",
   "concentracion": "20 mg",
   "cantidad": null,
-  "observacion": "SIN RESTRICCION"
+  "observacion": "SIN RESTRICCION",
+  "baja_rotacion": true
  },
  {
   "programa": "renal",
@@ -2166,7 +2406,8 @@
   "forma": "Comprimido",
   "concentracion": "100 mg",
   "cantidad": 898,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2175,7 +2416,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg/ml (2 ml)",
   "cantidad": 15,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2184,7 +2426,8 @@
   "forma": "Solución",
   "concentracion": "50% (5 Litros)",
   "cantidad": 32,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2193,7 +2436,8 @@
   "forma": "Comprimido",
   "concentracion": "5 mg",
   "cantidad": 2013,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2202,7 +2446,8 @@
   "forma": "Bidón",
   "concentracion": "Solución 2%",
   "cantidad": 207,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2211,7 +2456,8 @@
   "forma": "Sobre",
   "concentracion": "Par N° 16",
   "cantidad": 1397,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2220,7 +2466,8 @@
   "forma": "Sobre",
   "concentracion": "Par N° 17",
   "cantidad": 741,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2229,7 +2476,8 @@
   "forma": "Inyectable",
   "concentracion": "20%",
   "cantidad": 32,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2238,7 +2486,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": 2980,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2247,7 +2496,8 @@
   "forma": "Sobre",
   "concentracion": "Dimensiones 10",
   "cantidad": 17,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2256,7 +2506,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2265,7 +2516,8 @@
   "forma": "Crema o Pomada",
   "concentracion": "500 UI + 5 mg/g",
   "cantidad": 1,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2274,7 +2526,8 @@
   "forma": "Pieza",
   "concentracion": "Pieza",
   "cantidad": 8832,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2283,7 +2536,8 @@
   "forma": "Pieza",
   "concentracion": "Adulto siliconado",
   "cantidad": 101,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2292,7 +2546,8 @@
   "forma": "Inyectable",
   "concentracion": "20 mg/ml",
   "cantidad": 20,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2301,7 +2556,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": 20,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2310,7 +2566,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg (ion cal",
   "cantidad": 1680,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2319,7 +2576,8 @@
   "forma": "Comprimido",
   "concentracion": "12,5 mg",
   "cantidad": 1490,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2328,7 +2586,8 @@
   "forma": "Sobre",
   "concentracion": "Doble lumen 12",
   "cantidad": 15,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2337,7 +2596,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 18Gx1 1/2\"c/aletas de fij.",
   "cantidad": 5,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2346,7 +2606,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": 6,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2355,7 +2616,8 @@
   "forma": "Comprimido",
   "concentracion": "4 mg",
   "cantidad": 25,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2364,7 +2626,8 @@
   "forma": "Inyectable",
   "concentracion": "20%",
   "cantidad": 30,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2373,7 +2636,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": 20,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2382,7 +2646,8 @@
   "forma": "Comprimido",
   "concentracion": "0,25 mcg",
   "cantidad": 440,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2391,7 +2656,8 @@
   "forma": "Inyectable",
   "concentracion": "Según concentra",
   "cantidad": 79,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2400,7 +2666,8 @@
   "forma": "Comprimido o Capsula",
   "concentracion": "Según concentración estándar",
   "cantidad": 3700,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2409,7 +2676,8 @@
   "forma": "Pomada o Gel",
   "concentracion": "1%",
   "cantidad": 18,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2418,7 +2686,8 @@
   "forma": "Sobre",
   "concentracion": "De espuma para adulto",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2427,7 +2696,8 @@
   "forma": "Inyectable",
   "concentracion": "1 mg/ml",
   "cantidad": 24,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2436,7 +2706,8 @@
   "forma": "Sobre estéril",
   "concentracion": "C/control d goteo, aguja Nº 21",
   "cantidad": 902,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2445,7 +2716,8 @@
   "forma": "Inyectable",
   "concentracion": "4000 UI",
   "cantidad": 90,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2454,7 +2726,8 @@
   "forma": "Inyectable",
   "concentracion": "10.000 UI",
   "cantidad": 1584,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2463,7 +2736,8 @@
   "forma": "Sobre",
   "concentracion": "Libre de polisu",
   "cantidad": 34,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2472,7 +2746,8 @@
   "forma": "Sobre",
   "concentracion": "Libre de polisu",
   "cantidad": 258,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2481,7 +2756,8 @@
   "forma": "Comprimido ranurado",
   "concentracion": "40 mg",
   "cantidad": 100,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2490,7 +2766,8 @@
   "forma": "Inyectable",
   "concentracion": "10%",
   "cantidad": 8,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2499,7 +2776,8 @@
   "forma": "pieza",
   "concentracion": "pieza",
   "cantidad": 8832,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2508,7 +2786,8 @@
   "forma": "Sobre",
   "concentracion": "N° 6 1/2 puño l",
   "cantidad": 550,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2517,7 +2796,8 @@
   "forma": "Sobre",
   "concentracion": "N° 7 puño largo",
   "cantidad": 497,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2526,7 +2806,8 @@
   "forma": "Inyectable",
   "concentracion": "5.000 UI/ml",
   "cantidad": 1326,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2535,7 +2816,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg - IM o I",
   "cantidad": 266,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2544,7 +2826,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Nº 21",
   "cantidad": 5,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2553,7 +2836,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 11",
   "cantidad": 5,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2562,7 +2846,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 15",
   "cantidad": 5,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2571,7 +2856,8 @@
   "forma": "Comprimido",
   "concentracion": "400 mg",
   "cantidad": 30,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2580,7 +2866,8 @@
   "forma": "Sobre estéril",
   "concentracion": "10ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": 102,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2589,7 +2876,8 @@
   "forma": "Sobre estéril",
   "concentracion": "20ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": 2115,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2598,7 +2886,8 @@
   "forma": "Sobre estéril",
   "concentracion": "3 ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": 2737,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2607,7 +2896,8 @@
   "forma": "Sobre estéril",
   "concentracion": "50 ml Luer",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2616,7 +2906,8 @@
   "forma": "Sobre estéril",
   "concentracion": "5ml c/aguja 21x1 1/2\" c/rosca",
   "cantidad": 20,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2625,7 +2916,8 @@
   "forma": "Sobre estéril",
   "concentracion": "1 ml c/aguja fija N° 29G",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2634,7 +2926,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg",
   "cantidad": 23,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2643,7 +2936,8 @@
   "forma": "Inyectable",
   "concentracion": "30 mg/ml",
   "cantidad": 21,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2652,7 +2946,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": 20,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2661,7 +2956,8 @@
   "forma": "Inyectable",
   "concentracion": "2%",
   "cantidad": 8,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2670,7 +2966,8 @@
   "forma": "Pieza",
   "concentracion": "Pieza.",
   "cantidad": 220,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2679,7 +2976,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Sin alargador",
   "cantidad": 6,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2688,7 +2986,8 @@
   "forma": "Sobre estéril",
   "concentracion": "Con alargador 50 cm - 10cm",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2697,7 +2996,8 @@
   "forma": "Comprimido",
   "concentracion": "50 mg",
   "cantidad": 3960,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2706,7 +3006,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": 224,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2715,7 +3016,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": 67,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2724,7 +3026,8 @@
   "forma": "Inyectable",
   "concentracion": "10mg / 2ml",
   "cantidad": 49,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2733,7 +3036,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg/ml",
   "cantidad": 5,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2742,7 +3046,8 @@
   "forma": "Comprimido",
   "concentracion": "Según concentración estándar",
   "cantidad": 800,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2751,7 +3056,8 @@
   "forma": "Jarabe",
   "concentracion": "Según concentración estándar",
   "cantidad": 8,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2760,7 +3066,8 @@
   "forma": "Inyectable",
   "concentracion": "1 mg/ml",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2769,7 +3076,8 @@
   "forma": "Cápsula",
   "concentracion": "20 mg",
   "cantidad": 873,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2778,7 +3086,8 @@
   "forma": "Inyectable",
   "concentracion": "40 mg/ml",
   "cantidad": 28,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2787,7 +3096,8 @@
   "forma": "Gas",
   "concentracion": "93% - 99%",
   "cantidad": 484,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2796,7 +3106,8 @@
   "forma": "Solución",
   "concentracion": "Según disponibi",
   "cantidad": 84,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2805,7 +3116,8 @@
   "forma": "Solución",
   "concentracion": "Según disponibi",
   "cantidad": 83,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2814,7 +3126,8 @@
   "forma": "Solucion parenteral de gran vo",
   "concentracion": "50% (500 ml)",
   "cantidad": 36,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2823,7 +3136,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "5% (500 ml)",
   "cantidad": 28,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2832,7 +3146,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "20% (500 ml)",
   "cantidad": 100,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2841,7 +3156,8 @@
   "forma": "Solución",
   "concentracion": "0,9% (500 ml)",
   "cantidad": 31,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2850,7 +3166,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "0,9% (1.000 ml)",
   "cantidad": 527,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2859,7 +3176,8 @@
   "forma": "Inyectable",
   "concentracion": "10%",
   "cantidad": 8,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2868,7 +3186,8 @@
   "forma": "Sobre estéril",
   "concentracion": "N° 2/0 c/aguja 2.5 cm 1/2 circ",
   "cantidad": 10,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2877,7 +3196,8 @@
   "forma": "Pieza",
   "concentracion": "Pieza",
   "cantidad": 48,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2886,7 +3206,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg/2 ml",
   "cantidad": 23,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2895,7 +3216,8 @@
   "forma": "Pieza",
   "concentracion": "Pieza.",
   "cantidad": 1590,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "renal",
@@ -2904,7 +3226,8 @@
   "forma": "Ungüento o crema",
   "concentracion": "Según disponibilidad",
   "cantidad": 17,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2913,7 +3236,8 @@
   "forma": "Inyectable",
   "concentracion": "4 mg",
   "cantidad": 232,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2922,7 +3246,8 @@
   "forma": "Inyectable",
   "concentracion": "15 UI",
   "cantidad": 8,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2931,7 +3256,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": 1447,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2940,7 +3266,8 @@
   "forma": "Inyectable",
   "concentracion": "450 mg",
   "cantidad": 18,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2949,7 +3276,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": 381,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2958,7 +3286,8 @@
   "forma": "inyectable",
   "concentracion": "500 mg",
   "cantidad": 38,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2967,7 +3296,8 @@
   "forma": "Comprimido",
   "concentracion": "4 mg",
   "cantidad": 1000,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2976,7 +3306,8 @@
   "forma": "Inyectable",
   "concentracion": "40 mg/ml (2ml) 80MG",
   "cantidad": 117,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2985,7 +3316,8 @@
   "forma": "Comprimido",
   "concentracion": "10 mg",
   "cantidad": 500,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -2994,7 +3326,8 @@
   "forma": "Inyectable",
   "concentracion": "20 mg/ 10 ml",
   "cantidad": 115,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3003,7 +3336,8 @@
   "forma": "Inyectable",
   "concentracion": "50 mg",
   "cantidad": 373,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3012,7 +3346,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg/5 ml",
   "cantidad": 204,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3021,7 +3356,8 @@
   "forma": "Inyectable",
   "concentracion": "300 mcg/ml",
   "cantidad": 185,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3030,7 +3366,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg/10 ml",
   "cantidad": 393,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3039,7 +3376,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": 87,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3048,7 +3386,8 @@
   "forma": "Caja x 100 Unidades",
   "concentracion": "\" M \"",
   "cantidad": 201,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3057,7 +3396,8 @@
   "forma": "Inyectable",
   "concentracion": "1 g",
   "cantidad": 56,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3066,7 +3406,8 @@
   "forma": "Inyectable",
   "concentracion": "50 mg",
   "cantidad": 69,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3075,7 +3416,8 @@
   "forma": "Comprimido ranurado",
   "concentracion": "50 mg",
   "cantidad": 1283,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3084,7 +3426,8 @@
   "forma": "Inyectable",
   "concentracion": "400 mg",
   "cantidad": 20,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3093,7 +3436,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg",
   "cantidad": 103,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3102,7 +3446,8 @@
   "forma": "Inyectable",
   "concentracion": "50 mg",
   "cantidad": 291,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3111,7 +3456,8 @@
   "forma": "Inyectable",
   "concentracion": "20 mg",
   "cantidad": 58,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3120,7 +3466,8 @@
   "forma": "Comprimido",
   "concentracion": "8 mg",
   "cantidad": 800,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3129,7 +3476,8 @@
   "forma": "Inyectable",
   "concentracion": "8 mg",
   "cantidad": 1348,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3138,7 +3486,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg",
   "cantidad": 161,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3147,7 +3496,8 @@
   "forma": "Inyectable",
   "concentracion": "300 mg/50 ml",
   "cantidad": 697,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3156,7 +3506,8 @@
   "forma": "Plegable Frasco Vial",
   "concentracion": "750 mg/ml",
   "cantidad": 13,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3165,7 +3516,8 @@
   "forma": "Comprimido o Cápsula",
   "concentracion": "50 mg",
   "cantidad": 120,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3174,7 +3526,8 @@
   "forma": "Inyectable",
   "concentracion": "100 mg/10ml",
   "cantidad": 1,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3183,7 +3536,8 @@
   "forma": "Inyectable",
   "concentracion": "500 mg/50 ml",
   "cantidad": 35,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3192,7 +3546,8 @@
   "forma": "Solución parenteral de gran vo",
   "concentracion": "0,9% (500 ml)",
   "cantidad": 2413,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3201,7 +3556,8 @@
   "forma": "Cápsula",
   "concentracion": "100 mg",
   "cantidad": 1047,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3210,7 +3566,8 @@
   "forma": "Cápsula",
   "concentracion": "20 mg",
   "cantidad": 40,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3219,7 +3576,8 @@
   "forma": "Inyectable",
   "concentracion": "440 mg",
   "cantidad": 34,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3228,7 +3586,8 @@
   "forma": "Inyectable",
   "concentracion": "22,5 mg",
   "cantidad": 48,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3237,7 +3596,8 @@
   "forma": "Inyectable",
   "concentracion": "10 mg",
   "cantidad": 49,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3246,7 +3606,8 @@
   "forma": "Inyectable",
   "concentracion": "1 mg/ml (1ML)",
   "cantidad": 183,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "cancer",
@@ -3255,7 +3616,8 @@
   "forma": "Inyectable",
   "concentracion": "Según disponibilidad (50 ml)",
   "cantidad": 300,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3264,7 +3626,8 @@
   "forma": "Comprimido",
   "concentracion": "400 mg",
   "cantidad": 77,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3273,7 +3636,8 @@
   "forma": "Tableta",
   "concentracion": "100 mg",
   "cantidad": 42,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3282,7 +3646,8 @@
   "forma": "Comprimido",
   "concentracion": "100 mg",
   "cantidad": 169,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3291,7 +3656,8 @@
   "forma": "Tableta",
   "concentracion": "150 mg",
   "cantidad": 55,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3300,7 +3666,8 @@
   "forma": "Comprimido",
   "concentracion": "500 mg",
   "cantidad": 153,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3309,7 +3676,8 @@
   "forma": "Comprimido",
   "concentracion": "150 mg + 75 mg",
   "cantidad": 68,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3318,7 +3686,8 @@
   "forma": "Tableta",
   "concentracion": "75/50 mg",
   "cantidad": 38,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "tb",
@@ -3327,7 +3696,8 @@
   "forma": "Comprimido",
   "concentracion": "150/75/400/275 MG",
   "cantidad": 79,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "vih",
@@ -3336,7 +3706,8 @@
   "forma": "Jarabe o Solucion oral",
   "concentracion": "10 mg/ml",
   "cantidad": 2,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "vih",
@@ -3345,7 +3716,8 @@
   "forma": "Caja 400gr",
   "concentracion": "Caja",
   "cantidad": 3,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "vih",
@@ -3354,7 +3726,8 @@
   "forma": "Comprimido",
   "concentracion": "300mg+300mg+50mg",
   "cantidad": 90,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  },
  {
   "programa": "vih",
@@ -3363,6 +3736,7 @@
   "forma": "Suspension oral",
   "concentracion": "10 mg/ml",
   "cantidad": 3,
-  "observacion": ""
+  "observacion": "",
+  "baja_rotacion": false
  }
 ]
