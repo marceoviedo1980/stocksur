@@ -127,13 +127,14 @@
     }
 
     .filter-tabs {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 6px;
       padding: 10px 0 12px;
-      overflow-x: auto;
-      scrollbar-width: none;
     }
-    .filter-tabs::-webkit-scrollbar { display: none; }
+    @media (min-width: 640px) {
+      .filter-tabs { display: flex; flex-wrap: wrap; }
+    }
 
     .tab {
       --c: #888;
@@ -142,12 +143,17 @@
       color: var(--t);
       border: 2px solid transparent;
       border-radius: 20px;
-      padding: 6px 14px;
+      padding: 6px 8px;
       font-size: 12px;
       font-weight: 500;
+      line-height: 1.15;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 36px;
       font-family: 'IBM Plex Sans', sans-serif;
       cursor: pointer;
-      white-space: nowrap;
       opacity: 0.8;
       transition: all 0.2s;
     }
@@ -529,7 +535,6 @@ function setProg(p, el) {
   currentProg = p;
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
-  el.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
   input.placeholder = `Buscar en ${PROGRAMAS[p]}...`;
   document.getElementById('resultsBar').style.setProperty('--c', COLORES[p]);
   window.scrollTo(0, 0);
