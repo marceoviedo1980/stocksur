@@ -423,6 +423,29 @@
       vertical-align: 1px;
     }
 
+    /* Medicamentos controlados */
+    .card.has-ctrl { border-left: 8px solid #b71c1c; }
+    .card-ctrl {
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .card-ctrl small { font-weight: 500; letter-spacing: 0; opacity: 0.9; font-size: 11px; }
+    .card-ctrl.estupefaciente { background: #b71c1c; color: #fff; }
+    .card-ctrl.psicotropico { background: #fde8e8; color: #b71c1c; border-bottom: 2px solid #b71c1c; }
+    .detail-ctrl .detail-value {
+      font-weight: 700;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .detail-ctrl.estupefaciente .detail-value { background: #b71c1c; color: #fff; }
+    .detail-ctrl.psicotropico .detail-value { background: #fde8e8; color: #b71c1c; border: 2px solid #b71c1c; }
+
     mark {
       background: #fff176;
       color: inherit;
@@ -498,6 +521,11 @@ const COLORES = {
 let allData = [];
 let currentProg = 'sus';
 let currentQuery = '';
+
+const CONTROLADO = {
+  estupefaciente: { icono: '🚨', texto: 'ESTUPEFACIENTE' },
+  psicotropico:   { icono: '⚠️', texto: 'PSICOTRÓPICO' }
+};
 
 fetch('medicamentos.json')
   .then(r => r.json())
@@ -604,7 +632,8 @@ function render() {
     if (!tokens.length) return true;
     const texto = normalize([item.medicamento, item.codigo, item.forma,
                              item.concentracion, item.observacion,
-                             item.baja_rotacion ? 'baja rotacion' : ''].join(' '));
+                             item.baja_rotacion ? 'baja rotacion' : '',
+                             item.controlado ? 'controlado ' + CONTROLADO[item.controlado].texto : ''].join(' '));
     return tokens.every(t => texto.includes(t));
   });
 
@@ -631,6 +660,10 @@ function render() {
     const rotHTML = (item.baja_rotacion && currentProg !== 'rot')
       ? `<div class="card-rot">⏳ BAJA ROTACIÓN · se receta poco</div>`
       : (item.baja_rotacion ? `<div class="card-rot">⏳ BAJA ROTACIÓN</div>` : '');
+    const ctl = item.controlado && CONTROLADO[item.controlado];
+    const ctrlHTML = ctl
+      ? `<div class="card-ctrl ${item.controlado}">${ctl.icono} ${ctl.texto} <small>· medicamento controlado</small></div>`
+      : '';
     const stockHTML = tieneStock(item)
       ? `<div class="stock ${item.cantidad === 0 ? 'cero' : ''}">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}${item.cantidad === 0 ? '' : '<small>en stock</small>'}</div>`
       : '';
@@ -638,7 +671,8 @@ function render() {
       ? (hasObs ? `<div class="card-obs">⚠️ ${esc(item.observacion)}</div>` : `<div class="card-obs ok">✓ ${esc(item.observacion)}</div>`)
       : '';
     return `
-      <div class="card ${hasObs ? 'has-obs' : ''} ${item.baja_rotacion ? 'has-rot' : ''}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
+      <div class="card ${hasObs ? 'has-obs' : ''} ${item.baja_rotacion ? 'has-rot' : ''} ${ctl ? 'has-ctrl' : ''}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
+        ${ctrlHTML}
         <div class="card-body">
           <div class="card-main">
             <div class="card-name">${nameHL}</div>
@@ -685,6 +719,15 @@ function openModal(idx) {
       <div class="detail-row detail-obs ${r ? '' : 'ok'}">
         <div class="detail-label">Observación / Restricción</div>
         <div class="detail-value">${r ? '⚠️' : '✓'} ${esc(item.observacion)}</div>
+      </div>`;
+  }
+
+  if (item.controlado && CONTROLADO[item.controlado]) {
+    const c = CONTROLADO[item.controlado];
+    bodyHTML += `
+      <div class="detail-row detail-ctrl ${item.controlado}">
+        <div class="detail-label">Control</div>
+        <div class="detail-value">${c.icono} ${c.texto} · medicamento controlado</div>
       </div>`;
   }
 
