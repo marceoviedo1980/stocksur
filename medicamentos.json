@@ -2101,16 +2101,6 @@
  },
  {
   "programa": "sus",
-  "codigo": "DAC029-SUS",
-  "medicamento": "ST-Bolsa simple de transfusión (sangria)",
-  "forma": "Sobre esteril",
-  "concentracion": "Pieza",
-  "cantidad": null,
-  "observacion": "SIN RESTRICCION",
-  "baja_rotacion": false
- },
- {
-  "programa": "sus",
   "codigo": "B0533-SUS",
   "medicamento": "Sulfato de Magnesio",
   "forma": "Inyectable",
