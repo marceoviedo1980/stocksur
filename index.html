@@ -424,7 +424,7 @@
     }
 
     /* Medicamentos controlados */
-    .card.has-ctrl { border-left: 8px solid #b71c1c; }
+    .card.has-ctrl { border: 3px solid #b71c1c; border-left-width: 9px; }
     .card-ctrl {
       padding: 8px 14px;
       font-size: 13px;
@@ -436,7 +436,7 @@
     }
     .card-ctrl small { font-weight: 500; letter-spacing: 0; opacity: 0.9; font-size: 11px; }
     .card-ctrl.estupefaciente { background: #b71c1c; color: #fff; }
-    .card-ctrl.psicotropico { background: #fde8e8; color: #b71c1c; border-bottom: 2px solid #b71c1c; }
+    .card-ctrl.psicotropico { background: #fde8e8; color: #b71c1c; border-top: 1px solid #f3b8b8; }
     .detail-ctrl .detail-value {
       font-weight: 700;
       padding: 8px 12px;
@@ -524,7 +524,7 @@ let currentQuery = '';
 
 const CONTROLADO = {
   estupefaciente: { icono: '🚨', texto: 'ESTUPEFACIENTE' },
-  psicotropico:   { icono: '⚠️', texto: 'PSICOTRÓPICO' }
+  psicotropico:   { icono: '🧠', texto: 'PSICOTRÓPICO' }
 };
 
 fetch('medicamentos.json')
@@ -672,7 +672,6 @@ function render() {
       : '';
     return `
       <div class="card ${hasObs ? 'has-obs' : ''} ${item.baja_rotacion ? 'has-rot' : ''} ${ctl ? 'has-ctrl' : ''}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
-        ${ctrlHTML}
         <div class="card-body">
           <div class="card-main">
             <div class="card-name">${nameHL}</div>
@@ -680,6 +679,7 @@ function render() {
           </div>
           ${stockHTML}
         </div>
+        ${ctrlHTML}
         ${obsHTML}
         ${rotHTML}
       </div>`;
