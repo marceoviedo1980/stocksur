@@ -1351,16 +1351,6 @@
  },
  {
   "programa": "sus",
-  "codigo": "N0402-SUS",
-  "medicamento": "Levodopa + Carbidopa",
-  "forma": "Comprimido",
-  "concentracion": "250 mg + 25 mg",
-  "cantidad": null,
-  "observacion": "SIN RESTRICCION",
-  "baja_rotacion": false
- },
- {
-  "programa": "sus",
   "codigo": "J0168-SUS",
   "medicamento": "Levofloxacina",
   "forma": "Inyectable",
