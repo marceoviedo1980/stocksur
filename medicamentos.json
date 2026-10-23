@@ -1285,16 +1285,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DJ007-SUS",
-    "medicamento": "Jeringa descartable (50ml)",
-    "forma": "Sobre estéril",
-    "concentracion": "50 ml Luer",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "DJ004-SUS",
     "medicamento": "Jeringa descartable (5ml)",
     "forma": "Sobre estéril",
@@ -2067,16 +2057,6 @@
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": true
-  },
-  {
-    "programa": "sus",
-    "codigo": "DSD041-SUS",
-    "medicamento": "Sonda nasogástrica N° 16",
-    "forma": "Sobre estéril",
-    "concentracion": "Sonda Levin Polietileno N° 16",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
   },
   {
     "programa": "sus",
