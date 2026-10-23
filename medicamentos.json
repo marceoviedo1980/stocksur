@@ -1285,16 +1285,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DJ003-SUS",
-    "medicamento": "Jeringa descartable (3ml)",
-    "forma": "Sobre estéril",
-    "concentracion": "3 ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "DJ007-SUS",
     "medicamento": "Jeringa descartable (50ml)",
     "forma": "Sobre estéril",
