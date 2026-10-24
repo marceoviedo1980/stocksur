@@ -1659,16 +1659,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "A0704-SUS",
-    "medicamento": "Nistatina",
-    "forma": "Suspensión",
-    "concentracion": "500.000 UI/5 ml",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "J0151-SUS",
     "medicamento": "Nitrofurantoína",
     "forma": "Comprimido",
