@@ -611,16 +611,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "R0607-SUS",
-    "medicamento": "Cetirizina",
-    "forma": "Cápsula o Comprimido",
-    "concentracion": "10 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "A1104-SUS",
     "medicamento": "Cianocobalamina (Vitamina B12)",
     "forma": "Inyectable",
@@ -2224,16 +2214,6 @@
     "medicamento": "Tramadol",
     "forma": "Inyectable",
     "concentracion": "100 mg/2 ml",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "N0215-SUS",
-    "medicamento": "Tramadol",
-    "forma": "Comprimido",
-    "concentracion": "50 mg",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
