@@ -1,4 +1,4 @@
-const CACHE = 'elaltosur-v9';
+const CACHE = 'elaltosur-v10';
 const FILES = ['./index.html', './medicamentos.json', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
