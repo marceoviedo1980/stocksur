@@ -1055,16 +1055,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "A1001-SUS",
-    "medicamento": "Glibenclamida",
-    "forma": "Comprimido",
-    "concentracion": "5 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "B0510-SUS",
     "medicamento": "Gluconato Cálcico (Calcio Gluconato)",
     "forma": "Inyectable",
@@ -1129,16 +1119,6 @@
     "medicamento": "Heparina sódica",
     "forma": "Inyectable",
     "concentracion": "5.000 UI/ml",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "C0306-SUS",
-    "medicamento": "Hidroclorotiazida",
-    "forma": "Comprimido ranurado",
-    "concentracion": "50 mg",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
@@ -1340,16 +1320,6 @@
     "medicamento": "Levofloxacina",
     "forma": "Comprimido",
     "concentracion": "500 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "D0401-SUS",
-    "medicamento": "Lidocaína",
-    "forma": "Gel o Jalea",
-    "concentracion": "2%",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
