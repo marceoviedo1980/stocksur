@@ -81,6 +81,16 @@
   },
   {
     "programa": "sus",
+    "codigo": "M0504-LCC-SUS",
+    "medicamento": "Ácido Zoledrónico",
+    "forma": "Inyectable",
+    "concentracion": "4 mg",
+    "cantidad": null,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "sus",
     "codigo": "NC-B0501",
     "medicamento": "Agua para inyección",
     "forma": "inyectable",
@@ -417,6 +427,16 @@
     "concentracion": "Con equipo 2000ml",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "sus",
+    "codigo": "DAC029-SUS",
+    "medicamento": "Bolsa simple de transfusión (sangría)",
+    "forma": "Sobre estéril",
+    "concentracion": "Pieza",
+    "cantidad": null,
+    "observacion": "",
     "baja_rotacion": false
   },
   {
@@ -2190,26 +2210,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DTO095",
-    "medicamento": "Tubo endotraqueal descartable",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 3 sin balón",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": true
-  },
-  {
-    "programa": "sus",
-    "codigo": "DTO096",
-    "medicamento": "Tubo endotraqueal descartable",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 3.5 sin balón",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": true
-  },
-  {
-    "programa": "sus",
     "codigo": "DTO088-SUS",
     "medicamento": "Tubo endotraqueal descartable",
     "forma": "Sobre esteril",
@@ -2217,16 +2217,6 @@
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "DTO094",
-    "medicamento": "Tubo endotraqueal descartable",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 2.5 sin balón",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": true
   },
   {
     "programa": "sus",
@@ -2300,6 +2290,16 @@
   },
   {
     "programa": "renal",
+    "codigo": "D0603-SUS",
+    "medicamento": "Aciclovir",
+    "forma": "Crema dérmica",
+    "concentracion": "5%",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": true
+  },
+  {
+    "programa": "renal",
     "codigo": "B0101-SUS",
     "medicamento": "Ácido acetil salicílico",
     "forma": "Comprimido",
@@ -2364,7 +2364,7 @@
     "medicamento": "Aguja para Fístula Arterial venosa",
     "forma": "Sobre",
     "concentracion": "Par N° 17",
-    "cantidad": 741,
+    "cantidad": 725,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2375,6 +2375,46 @@
     "forma": "Inyectable",
     "concentracion": "20%",
     "cantidad": 32,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DOT003",
+    "medicamento": "Algodón",
+    "forma": "Paquete",
+    "concentracion": "200 grs.",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DOT005",
+    "medicamento": "Algodón",
+    "forma": "Paquete",
+    "concentracion": "100 grs.",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "J0104-SUS",
+    "medicamento": "Amikacina",
+    "forma": "Inyectable",
+    "concentracion": "500mg /2 ml",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "B0503-SUS",
+    "medicamento": "Aminoácidos",
+    "forma": "Solución",
+    "concentracion": "10%",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2394,7 +2434,17 @@
     "medicamento": "Apósitos adhesivos (10 x 12)",
     "forma": "Sobre",
     "concentracion": "Dimensiones 10",
-    "cantidad": 17,
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "C1001-SUS",
+    "medicamento": "Atorvastatina",
+    "forma": "Comprimido",
+    "concentracion": "10 mg",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2424,7 +2474,7 @@
     "medicamento": "Barbijo (pieza)",
     "forma": "Pieza",
     "concentracion": "Pieza",
-    "cantidad": 8832,
+    "cantidad": 8800,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2440,11 +2490,21 @@
   },
   {
     "programa": "renal",
+    "codigo": "DB002",
+    "medicamento": "Bolsa colectora de orina",
+    "forma": "Bolsa",
+    "concentracion": "2000 ml c/válvula",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "A0304-SUS",
     "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
     "forma": "Inyectable",
     "concentracion": "20 mg/ml",
-    "cantidad": 20,
+    "cantidad": 14,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2454,7 +2514,7 @@
     "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
     "forma": "Comprimido",
     "concentracion": "10 mg",
-    "cantidad": 20,
+    "cantidad": 40,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2480,6 +2540,16 @@
   },
   {
     "programa": "renal",
+    "codigo": "C0704-SUS",
+    "medicamento": "Carvedilol",
+    "forma": "Comprimido",
+    "concentracion": "6,25 mg",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "DAC043-SR-SUS",
     "medicamento": "Catéter doble lumen para hemodiálisis",
     "forma": "Sobre",
@@ -2500,6 +2570,16 @@
   },
   {
     "programa": "renal",
+    "codigo": "R0607-SUS",
+    "medicamento": "Cetirizina",
+    "forma": "Cápsula",
+    "concentracion": "10 mg",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "J0127-SUS",
     "medicamento": "Ciprofloxacina",
     "forma": "Comprimido",
@@ -2514,7 +2594,7 @@
     "medicamento": "Clorfenamina (Clorfeniramina)",
     "forma": "Comprimido",
     "concentracion": "4 mg",
-    "cantidad": 25,
+    "cantidad": 5,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2570,11 +2650,41 @@
   },
   {
     "programa": "renal",
+    "codigo": "A1106-SUS",
+    "medicamento": "Complejo B (B1 + B6 + B12)",
+    "forma": "Comprimido o Capsula",
+    "concentracion": "Según concentración estándar",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "M0101-SUS",
     "medicamento": "Diclofenaco Sódico",
     "forma": "Pomada o Gel",
     "concentracion": "1%",
     "cantidad": 18,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "M0103-SUS",
+    "medicamento": "Diclofenaco Sódico",
+    "forma": "Inyectable",
+    "concentracion": "75 mg",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "J0141-SUS",
+    "medicamento": "Dicloxacilina sódica",
+    "forma": "Cápsula",
+    "concentracion": "500 mg",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2600,11 +2710,21 @@
   },
   {
     "programa": "renal",
+    "codigo": "DAC073-SUS",
+    "medicamento": "Equipo de trasfusión",
+    "forma": "Sobre estéril",
+    "concentracion": "Bolsa C/cámara goteo flexible",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "DAC074-SUS",
     "medicamento": "Equipo de venoclisis",
     "forma": "Sobre estéril",
     "concentracion": "C/control d goteo, aguja Nº 21",
-    "cantidad": 902,
+    "cantidad": 893,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2624,7 +2744,7 @@
     "medicamento": "Eritropoyetina",
     "forma": "Inyectable",
     "concentracion": "10.000 UI",
-    "cantidad": 1584,
+    "cantidad": 1568,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2644,7 +2764,7 @@
     "medicamento": "Filtro para hemodiálisis N°8",
     "forma": "Sobre",
     "concentracion": "Libre de polisu",
-    "cantidad": 258,
+    "cantidad": 254,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2664,7 +2784,7 @@
     "medicamento": "Gluconato Cálcico (Calcio Gluconato)",
     "forma": "Inyectable",
     "concentracion": "10%",
-    "cantidad": 8,
+    "cantidad": 5,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2674,7 +2794,27 @@
     "medicamento": "Gorras descartables",
     "forma": "pieza",
     "concentracion": "pieza",
-    "cantidad": 8832,
+    "cantidad": 8800,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DPP012",
+    "medicamento": "Guantes descartables",
+    "forma": "Caja x 100 unidades",
+    "concentracion": "De latex talla M",
+    "cantidad": 120,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DPP011",
+    "medicamento": "Guantes descartables",
+    "forma": "Caja x 100 unidades",
+    "concentracion": "De latex talla S",
+    "cantidad": 110,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2684,7 +2824,17 @@
     "medicamento": "Guantes quirúrgicos (6 1/2)",
     "forma": "Sobre",
     "concentracion": "N° 6 1/2 puño l",
-    "cantidad": 550,
+    "cantidad": 518,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DMQ020-SUS",
+    "medicamento": "Guantes quirúrgicos (6 1/2)",
+    "forma": "Sobre estéril",
+    "concentracion": "N° 6 1/2 puño largo",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2704,7 +2854,7 @@
     "medicamento": "Heparina sódica",
     "forma": "Inyectable",
     "concentracion": "5.000 UI/ml",
-    "cantidad": 1326,
+    "cantidad": 1304,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2714,7 +2864,7 @@
     "medicamento": "Hierro",
     "forma": "Inyectable",
     "concentracion": "100 mg - IM o I",
-    "cantidad": 266,
+    "cantidad": 255,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2774,7 +2924,7 @@
     "medicamento": "Jeringa descartable (20ml)",
     "forma": "Sobre estéril",
     "concentracion": "20ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 2115,
+    "cantidad": 2074,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2784,7 +2934,7 @@
     "medicamento": "Jeringa descartable (3ml)",
     "forma": "Sobre estéril",
     "concentracion": "3 ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 2737,
+    "cantidad": 2723,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2864,7 +3014,7 @@
     "medicamento": "Línea Arteriovenosa",
     "forma": "Pieza",
     "concentracion": "Pieza.",
-    "cantidad": 220,
+    "cantidad": 216,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2910,6 +3060,16 @@
   },
   {
     "programa": "renal",
+    "codigo": "C0204-SUS",
+    "medicamento": "Metildopa (Alfametildopa)",
+    "forma": "Comprimido",
+    "concentracion": "500 mg",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "A0307-SUS",
     "medicamento": "Metoclopramida",
     "forma": "Comprimido",
@@ -2925,6 +3085,16 @@
     "forma": "Inyectable",
     "concentracion": "10mg / 2ml",
     "cantidad": 49,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "P0109-SUS",
+    "medicamento": "Metronidazol",
+    "forma": "Comprimido",
+    "concentracion": "500 mg",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3001,11 +3171,21 @@
   },
   {
     "programa": "renal",
+    "codigo": "N0208-SUS",
+    "medicamento": "Paracetamol (Acetaminofeno)",
+    "forma": "Comprimido",
+    "concentracion": "500 mg",
+    "cantidad": 120,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "B0513-SR-SUS",
     "medicamento": "Solucion Acida",
     "forma": "Solución",
     "concentracion": "Según disponibi",
-    "cantidad": 84,
+    "cantidad": 322,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3015,7 +3195,7 @@
     "medicamento": "Solución Básica",
     "forma": "Solución",
     "concentracion": "Según disponibi",
-    "cantidad": 83,
+    "cantidad": 321,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3051,6 +3231,16 @@
   },
   {
     "programa": "renal",
+    "codigo": "BID-B0521",
+    "medicamento": "Solución de Manitol",
+    "forma": "Solución parenteral de gran vo",
+    "concentracion": "20% (500 ml)",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
     "codigo": "B0522-SUS",
     "medicamento": "Solución Fisiológica",
     "forma": "Solución",
@@ -3065,7 +3255,7 @@
     "medicamento": "Solución Fisiológica",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "0,9% (1.000 ml)",
-    "cantidad": 527,
+    "cantidad": 463,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3076,6 +3266,16 @@
     "forma": "Inyectable",
     "concentracion": "10%",
     "cantidad": 8,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "B0308-SUS",
+    "medicamento": "Sulfato ferroso + Ac. Fólico + Vitamina C",
+    "forma": "Comprimido",
+    "concentracion": "200 mg + 0,5 mg + 150 mg",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3095,7 +3295,27 @@
     "medicamento": "Tapón heparinizado",
     "forma": "Pieza",
     "concentracion": "Pieza",
-    "cantidad": 48,
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DOT055",
+    "medicamento": "Tela adhesiva color piel",
+    "forma": "Rollo",
+    "concentracion": "1\"",
+    "cantidad": 315,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DOT054",
+    "medicamento": "Tela adhesiva color piel",
+    "forma": "Rollo",
+    "concentracion": "2\"",
+    "cantidad": 70,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3115,7 +3335,7 @@
     "medicamento": "Transductor",
     "forma": "Pieza",
     "concentracion": "Pieza.",
-    "cantidad": 1590,
+    "cantidad": 1558,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3125,17 +3345,47 @@
     "medicamento": "Ungüento dérmico eucalipto mentol",
     "forma": "Ungüento o crema",
     "concentracion": "Según disponibilidad",
-    "cantidad": 17,
+    "cantidad": 2,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "J0155-SUS",
+    "medicamento": "Vancomicina",
+    "forma": "Inyectable",
+    "concentracion": "500 mg",
+    "cantidad": 0,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DOT071-SUS",
+    "medicamento": "Venda de gasa 4\"",
+    "forma": "Rollo",
+    "concentracion": "4\"",
+    "cantidad": 0,
     "observacion": "",
     "baja_rotacion": false
   },
   {
     "programa": "cancer",
-    "codigo": "M0504-LCC-SUS",
-    "medicamento": "Ácido Zoledrónico",
-    "forma": "Inyectable",
-    "concentracion": "4 mg",
-    "cantidad": 200,
+    "codigo": "NC-B0501",
+    "medicamento": "Agua para inyección",
+    "forma": "inyectable",
+    "concentracion": "5 ml",
+    "cantidad": 120,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DTO003 -SUS",
+    "medicamento": "Bigotera para oxígeno",
+    "forma": "Pieza",
+    "concentracion": "Adulto siliconado",
+    "cantidad": 20,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3146,6 +3396,16 @@
     "forma": "Inyectable",
     "concentracion": "15 UI",
     "cantidad": 8,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DB017-SUS",
+    "medicamento": "Bolsa EVA (500 ml)",
+    "forma": "Bolsa estéril",
+    "concentracion": "Con equipo 500 ml",
+    "cantidad": 400,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3165,7 +3425,27 @@
     "medicamento": "Carboplatino",
     "forma": "Inyectable",
     "concentracion": "450 mg",
-    "cantidad": 18,
+    "cantidad": 9,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC066-SUS",
+    "medicamento": "Catéter venoso periférico (N°20)",
+    "forma": "Sobre estéril",
+    "concentracion": "Nº 20Gx1 1/2\" c/aletas de fij.",
+    "cantidad": 200,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC067-SUS",
+    "medicamento": "Catéter venoso periférico (N°22)",
+    "forma": "Sobre estéril",
+    "concentracion": "Nº 22 G x 1\"c/aletas de fij.",
+    "cantidad": 200,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3191,11 +3471,41 @@
   },
   {
     "programa": "cancer",
+    "codigo": "A1107-SUS",
+    "medicamento": "Complejo B (B1 + B6 + B12)",
+    "forma": "Inyectable",
+    "concentracion": "Según concentra",
+    "cantidad": 100,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "H0202-SUS",
     "medicamento": "Dexametasona",
     "forma": "Comprimido",
     "concentracion": "4 mg",
     "cantidad": 1000,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "H0204-SUS",
+    "medicamento": "Dexametasona",
+    "forma": "Inyectable",
+    "concentracion": "4 mg/ml",
+    "cantidad": 1000,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "M0101-SUS",
+    "medicamento": "Diclofenaco Sódico",
+    "forma": "Pomada o Gel",
+    "concentracion": "1%",
+    "cantidad": 10,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3238,6 +3548,16 @@
     "cantidad": 368,
     "observacion": "",
     "baja_rotacion": true
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC074-SUS",
+    "medicamento": "Equipo de venoclisis",
+    "forma": "Sobre estéril",
+    "concentracion": "C/control d goteo, aguja Nº 21",
+    "cantidad": 1000,
+    "observacion": "",
+    "baja_rotacion": false
   },
   {
     "programa": "cancer",
@@ -3291,11 +3611,101 @@
   },
   {
     "programa": "cancer",
+    "codigo": "D0704-SUS",
+    "medicamento": "Hidrocortisona acetato",
+    "forma": "Crema o Pomada",
+    "concentracion": "1%",
+    "cantidad": 50,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "H0205-SUS",
+    "medicamento": "Hidrocortisona succinato sódico",
+    "forma": "Inyectable",
+    "concentracion": "100 mg",
+    "cantidad": 50,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DJ005-SUS",
+    "medicamento": "Jeringa descartable (10ml)",
+    "forma": "Sobre estéril",
+    "concentracion": "10ml c/aguja 21x1 1/2\" c/rosca",
+    "cantidad": 1200,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DJ006-SUS",
+    "medicamento": "Jeringa descartable (20ml)",
+    "forma": "Sobre estéril",
+    "concentracion": "20ml c/aguja 21x1 1/2\" c/rosca",
+    "cantidad": 200,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DJ007-SUS",
+    "medicamento": "Jeringa descartable (50ml)",
+    "forma": "Sobre estéril",
+    "concentracion": "50 ml Luer",
+    "cantidad": 252,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "V0307-LCC-SUS",
     "medicamento": "Leucovorina",
     "forma": "Inyectable",
     "concentracion": "50 mg",
     "cantidad": 69,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "J0166-SUS",
+    "medicamento": "Levofloxacina",
+    "forma": "Comprimido",
+    "concentracion": "500 mg",
+    "cantidad": 200,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "D0401-SUS",
+    "medicamento": "Lidocaína",
+    "forma": "Gel",
+    "concentracion": "2%",
+    "cantidad": 30,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "N0112-SUS",
+    "medicamento": "Lidocaína clorhidrato sin conservante",
+    "forma": "Inyectable",
+    "concentracion": "2%",
+    "cantidad": 50,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC089-SUS",
+    "medicamento": "Llave de 3 vías s/a",
+    "forma": "Sobre estéril",
+    "concentracion": "Sin alargador",
+    "cantidad": 189,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3321,11 +3731,41 @@
   },
   {
     "programa": "cancer",
+    "codigo": "N0205-SUS",
+    "medicamento": "Metamizol (Dipirona)",
+    "forma": "Inyectable",
+    "concentracion": "1 g",
+    "cantidad": 200,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A0307-SUS",
+    "medicamento": "Metoclopramida",
+    "forma": "Comprimido",
+    "concentracion": "10 mg",
+    "cantidad": 600,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A0308-SUS",
+    "medicamento": "Metoclopramida",
+    "forma": "Inyectable",
+    "concentracion": "10mg / 2ml",
+    "cantidad": 1100,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "L0125-LCC-SUS",
     "medicamento": "Metotrexato",
     "forma": "Inyectable",
     "concentracion": "500 mg",
-    "cantidad": 103,
+    "cantidad": 10,
     "observacion": "",
     "baja_rotacion": true
   },
@@ -3335,9 +3775,59 @@
     "medicamento": "Metotrexato",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 291,
+    "cantidad": 20,
     "observacion": "",
     "baja_rotacion": true
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC091-SUS",
+    "medicamento": "Microgotero",
+    "forma": "Sobre estéril",
+    "concentracion": "c/deposito rigido 100ml-150ml",
+    "cantidad": 100,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A1110-SUS",
+    "medicamento": "Multivitaminas",
+    "forma": "Jarabe",
+    "concentracion": "Según concentración estándar",
+    "cantidad": 100,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A0704-SUS",
+    "medicamento": "Nistatina",
+    "forma": "Suspensión",
+    "concentracion": "500.000 UI/5 ml",
+    "cantidad": 5,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A0202-SUS",
+    "medicamento": "Omeprazol",
+    "forma": "Cápsula",
+    "concentracion": "20 mg",
+    "cantidad": 200,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A0205-SUS",
+    "medicamento": "Omeprazol",
+    "forma": "Inyectable",
+    "concentracion": "40 mg/ml",
+    "cantidad": 270,
+    "observacion": "",
+    "baja_rotacion": false
   },
   {
     "programa": "cancer",
@@ -3355,7 +3845,7 @@
     "medicamento": "Ondansetrón",
     "forma": "Inyectable",
     "concentracion": "8 mg",
-    "cantidad": 1300,
+    "cantidad": 300,
     "observacion": "",
     "baja_rotacion": true
   },
@@ -3411,11 +3901,81 @@
   },
   {
     "programa": "cancer",
+    "codigo": "NC-B0515",
+    "medicamento": "Solución de glucosa",
+    "forma": "Solución paren de gran volu",
+    "concentracion": "5% (500 ml)",
+    "cantidad": 80,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "B0516-SUS",
+    "medicamento": "Solución de glucosa",
+    "forma": "Solución parenteral de gran vo",
+    "concentracion": "5% (1.000 ml)",
+    "cantidad": 36,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "B0522-SUS",
     "medicamento": "Solución Fisiológica",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "0,9% (500 ml)",
-    "cantidad": 2413,
+    "cantidad": 2350,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "B0523-SUS",
+    "medicamento": "Solución Fisiológica",
+    "forma": "Solución parenteral de gran vo",
+    "concentracion": "0,9% (1.000 ml)",
+    "cantidad": 240,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "B0530-SUS",
+    "medicamento": "Solución ringer lactato",
+    "forma": "Solución parenteral de gran vo",
+    "concentracion": "1000 ml",
+    "cantidad": 36,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "B0532-SUS",
+    "medicamento": "Solución ringer normal",
+    "forma": "Solución parenteral de gran vo",
+    "concentracion": "1000 ml",
+    "cantidad": 36,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "B0531-SUS",
+    "medicamento": "Solución ringer normal",
+    "forma": "Solución parenteral de gran vo",
+    "concentracion": "500 ml",
+    "cantidad": 36,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC093-SUS",
+    "medicamento": "Tapón heparinizado",
+    "forma": "Pieza",
+    "concentracion": "Pieza",
+    "cantidad": 48,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3438,6 +3998,26 @@
     "cantidad": 40,
     "observacion": "",
     "baja_rotacion": true
+  },
+  {
+    "programa": "cancer",
+    "codigo": "N0214-SUS",
+    "medicamento": "Tramadol",
+    "forma": "Inyectable",
+    "concentracion": "100 mg/2 ml",
+    "cantidad": 300,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "N0215-SUS",
+    "medicamento": "Tramadol",
+    "forma": "Comprimido",
+    "concentracion": "50 mg",
+    "cantidad": 200,
+    "observacion": "",
+    "baja_rotacion": false
   },
   {
     "programa": "cancer",
@@ -3485,7 +4065,7 @@
     "medicamento": "Contraste iodado",
     "forma": "Inyectable",
     "concentracion": "Según disponibilidad (50 ml)",
-    "cantidad": 300,
+    "cantidad": 350,
     "observacion": "",
     "baja_rotacion": false
   },
