@@ -1586,12 +1586,12 @@
     "controlado": "psicotropico"
   },
   {
-    "programa": "sus",
+    "programa": "cancer",
     "codigo": "N0206-SUS",
     "medicamento": "Morfina",
     "forma": "Cápsula o Comprimido",
     "concentracion": "10 mg",
-    "cantidad": null,
+    "cantidad": 179,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false,
     "controlado": "estupefaciente"
