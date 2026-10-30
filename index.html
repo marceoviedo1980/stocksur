@@ -446,6 +446,57 @@
     .detail-ctrl.estupefaciente .detail-value { background: #b71c1c; color: #fff; }
     .detail-ctrl.psicotropico .detail-value { background: #fde8e8; color: #b71c1c; border: 2px solid #b71c1c; }
 
+    /* Señales de stock (solo pestaña Lucha contra el Cáncer) */
+    .card.bd-ruptura, .card.bd-sinstock { border-left: 6px solid #d84315; }
+    .card.bd-vencimiento { border-left: 6px solid #e08a00; }
+    .card.bd-sobrestock { border-left: 6px solid #3949ab; }
+    .stock.ruptura { color: #d84315; }
+    .card-al {
+      padding: 7px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 2px 6px;
+    }
+    .card-al small { font-weight: 500; letter-spacing: 0; font-size: 11px; opacity: 0.9; }
+    .al-ruptura    { background: #d84315; color: #fff; }
+    .al-sinstock   { background: #fde3dc; color: #a12a0a; border-top: 1px solid #f5b9a8; }
+    .al-vencimiento{ background: #fff1d6; color: #8a4b00; border-top: 1px solid #f3cf8a; }
+    .al-sobrestock { background: #e8eaf6; color: #283593; border-top: 1px solid #c5cae9; }
+    .al-sinmov     { background: #eceff1; color: #455a64; border-top: 1px solid #cfd8dc; }
+    .al-normal     { background: #e6f4ec; color: #0b6b34; border-top: 1px solid #bfe3cc; }
+    .detail-al .detail-value { display: flex; flex-direction: column; gap: 6px; }
+    .detail-al .card-al { border-radius: 8px; border: none; font-size: 13px; }
+
+    .al-summary {
+      display: none;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+      padding: 8px 12px 0;
+    }
+    .al-summary.show { display: grid; }
+    @media (min-width: 640px) { .al-summary.show { grid-template-columns: repeat(4, 1fr); } }
+    .al-chip {
+      border: 2px solid transparent;
+      border-radius: 10px;
+      padding: 7px 8px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
+    .al-chip b { font-family: 'IBM Plex Mono', monospace; font-size: 14px; }
+    .al-chip.active { border-color: #1c2833; box-shadow: 0 2px 6px rgba(0,0,0,0.25); }
+    .al-hint { grid-column: 1 / -1; font-size: 11px; color: var(--text-muted); text-align: center; }
+
     mark {
       background: #fff176;
       color: inherit;
@@ -484,6 +535,7 @@
 </header>
 
 <div class="results-bar" id="resultsBar">Cargando...</div>
+<div class="al-summary" id="alSummary"></div>
 
 <div id="listContainer"></div>
 
@@ -527,6 +579,47 @@ const CONTROLADO = {
   psicotropico:   { icono: '🧠', texto: 'PSICOTRÓPICO' }
 };
 
+// Señales de stock: por ahora solo se muestran en Lucha contra el Cáncer
+const ALERTAS = {
+  ruptura:     { icono: '🔻', texto: 'RIESGO DE RUPTURA DE STOCK', nota: 'gestionar adquisición', corto: 'Riesgo de ruptura' },
+  sinstock:    { icono: '⛔', texto: 'SIN STOCK', nota: '', corto: 'Sin stock' },
+  vencimiento: { icono: '⏰', texto: 'RIESGO DE VENCIMIENTO', nota: 'priorizar rotación', corto: 'Riesgo de vencimiento' },
+  sobrestock:  { icono: '📦', texto: 'SOBRESTOCK', nota: 'existencia mayor al consumo', corto: 'Sobrestock' },
+  sinmov:      { icono: '⏸', texto: 'SIN MOVIMIENTO', nota: '', corto: 'Sin movimiento' },
+  normal:      { icono: '✓', texto: 'STOCK ADECUADO', nota: '', corto: 'Stock adecuado' }
+};
+const ORDEN_ALERTAS = ['ruptura', 'sinstock', 'vencimiento', 'sobrestock', 'sinmov', 'normal'];
+const CHIPS = ['ruptura', 'sinstock', 'vencimiento', 'sobrestock'];
+let alertFilter = null;
+
+function alertasDe(item) {
+  return (currentProg === 'cancer' && Array.isArray(item.alertas))
+    ? ORDEN_ALERTAS.filter(a => item.alertas.includes(a)) : [];
+}
+
+function alertaHTML(a) {
+  const x = ALERTAS[a];
+  return `<div class="card-al al-${a}">${x.icono} ${x.texto}${x.nota ? ` <small>· ${x.nota}</small>` : ''}</div>`;
+}
+
+function renderSummary() {
+  const box = document.getElementById('alSummary');
+  if (currentProg !== 'cancer') { box.classList.remove('show'); box.innerHTML = ''; return; }
+  const items = allData.filter(i => i.programa === 'cancer');
+  box.innerHTML = CHIPS.map(a => {
+    const n = items.filter(i => (i.alertas || []).includes(a)).length;
+    return `<button class="al-chip al-${a} ${alertFilter === a ? 'active' : ''}" data-al="${a}">${ALERTAS[a].icono} ${ALERTAS[a].corto} <b>${n}</b></button>`;
+  }).join('') + `<div class="al-hint">${alertFilter ? 'Toca de nuevo para ver todos' : 'Toca una señal para filtrar'}</div>`;
+  box.classList.add('show');
+}
+
+document.getElementById('alSummary').addEventListener('click', e => {
+  const b = e.target.closest('.al-chip');
+  if (!b) return;
+  alertFilter = alertFilter === b.dataset.al ? null : b.dataset.al;
+  render();
+});
+
 fetch('medicamentos.json')
   .then(r => r.json())
   .then(data => {
@@ -561,6 +654,7 @@ function clearSearch() {
 
 function setProg(p, el) {
   currentProg = p;
+  alertFilter = null;
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
   input.placeholder = `Buscar en ${PROGRAMAS[p]}...`;
@@ -629,16 +723,20 @@ function render() {
     if (currentProg === 'rot') {
       if (!item.baja_rotacion) return false;
     } else if (item.programa !== currentProg) return false;
+    if (alertFilter && !alertasDe(item).includes(alertFilter)) return false;
     if (!tokens.length) return true;
     const texto = normalize([item.medicamento, item.codigo, item.forma,
                              item.concentracion, item.observacion,
                              item.baja_rotacion ? 'baja rotacion' : '',
-                             item.controlado ? 'controlado ' + CONTROLADO[item.controlado].texto : ''].join(' '));
+                             item.controlado ? 'controlado ' + CONTROLADO[item.controlado].texto : '',
+                             alertasDe(item).map(a => ALERTAS[a].texto).join(' ')].join(' '));
     return tokens.every(t => texto.includes(t));
   });
 
   document.getElementById('resultsBar').textContent =
-    `${filtered.length} resultado${filtered.length !== 1 ? 's' : ''} en ${PROGRAMAS[currentProg]}`;
+    `${filtered.length} resultado${filtered.length !== 1 ? 's' : ''} en ${PROGRAMAS[currentProg]}` +
+    (alertFilter ? ` · ${ALERTAS[alertFilter].corto}` : '');
+  renderSummary();
 
   if (filtered.length === 0) {
     container.innerHTML = `
@@ -664,14 +762,17 @@ function render() {
     const ctrlHTML = ctl
       ? `<div class="card-ctrl ${item.controlado}">${ctl.icono} ${ctl.texto} <small>· medicamento controlado</small></div>`
       : '';
+    const als = alertasDe(item);
+    const alHTML = als.map(alertaHTML).join('');
+    const alClase = als.filter(a => a !== 'normal' && a !== 'sinmov').slice(0, 1).map(a => 'bd-' + a).join('');
     const stockHTML = tieneStock(item)
-      ? `<div class="stock ${item.cantidad === 0 ? 'cero' : ''}">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}${item.cantidad === 0 ? '' : '<small>en stock</small>'}</div>`
+      ? `<div class="stock ${item.cantidad === 0 ? 'cero' : ''} ${als.includes('ruptura') ? 'ruptura' : ''}">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}${item.cantidad === 0 ? '' : '<small>en stock</small>'}</div>`
       : '';
     const obsHTML = item.observacion
       ? (hasObs ? `<div class="card-obs">⚠️ ${esc(item.observacion)}</div>` : `<div class="card-obs ok">✓ ${esc(item.observacion)}</div>`)
       : '';
     return `
-      <div class="card ${hasObs ? 'has-obs' : ''} ${item.baja_rotacion ? 'has-rot' : ''} ${ctl ? 'has-ctrl' : ''}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
+      <div class="card ${hasObs ? 'has-obs' : ''} ${item.baja_rotacion ? 'has-rot' : ''} ${ctl ? 'has-ctrl' : ''} ${alClase}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
         <div class="card-body">
           <div class="card-main">
             <div class="card-name">${nameHL}</div>
@@ -680,6 +781,7 @@ function render() {
           ${stockHTML}
         </div>
         ${ctrlHTML}
+        ${alHTML}
         ${obsHTML}
         ${rotHTML}
       </div>`;
@@ -711,6 +813,15 @@ function openModal(idx) {
       <div class="detail-label">Cantidad en stock</div>
       <div class="detail-value">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}</div>
     </div>`;
+  }
+
+  const alsM = alertasDe(item);
+  if (alsM.length) {
+    bodyHTML += `
+      <div class="detail-row detail-al">
+        <div class="detail-label">Estado del stock</div>
+        <div class="detail-value">${alsM.map(alertaHTML).join('')}</div>
+      </div>`;
   }
 
   if (item.observacion) {
