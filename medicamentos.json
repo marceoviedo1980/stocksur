@@ -1959,16 +1959,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DSD015-SUS",
-    "medicamento": "Sonda de aspiración N° 14",
-    "forma": "Sobre estéril",
-    "concentracion": "C/sist. control de flujo N°14",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "DSD011-SUS",
     "medicamento": "Sonda de aspiración N° 6",
     "forma": "Sobre estéril",
