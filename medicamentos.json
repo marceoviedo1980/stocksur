@@ -873,16 +873,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DMQ012",
-    "medicamento": "Electrodos",
-    "forma": "Sobre",
-    "concentracion": "De espuma para adulto",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "C0110-SUS",
     "medicamento": "Epinefrina (Adrenalina)",
     "forma": "Inyectable",
