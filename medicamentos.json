@@ -2409,16 +2409,6 @@
   },
   {
     "programa": "renal",
-    "codigo": "J0113-SUS",
-    "medicamento": "Azitromicina",
-    "forma": "Comprimido",
-    "concentracion": "500 mg",
-    "cantidad": 10,
-    "observacion": "",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "renal",
     "codigo": "D0102-SUS",
     "medicamento": "Bacitracina + Neomicina sulfato",
     "forma": "Crema o Pomada",
@@ -3424,19 +3414,6 @@
     "forma": "Comprimido",
     "concentracion": "500 mg",
     "cantidad": 1181,
-    "observacion": "",
-    "baja_rotacion": false,
-    "alertas": [
-      "ruptura"
-    ]
-  },
-  {
-    "programa": "cancer",
-    "codigo": "L0104-LCC-SUS",
-    "medicamento": "Carboplatino",
-    "forma": "Inyectable",
-    "concentracion": "450 mg",
-    "cantidad": 3,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
