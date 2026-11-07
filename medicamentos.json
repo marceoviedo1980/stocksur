@@ -281,26 +281,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "D-C1001",
-    "medicamento": "Atorvastatina",
-    "forma": "Comprimido",
-    "concentracion": "10 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "C1001-SUS",
-    "medicamento": "Atorvastatina",
-    "forma": "Comprimido",
-    "concentracion": "10 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "M0301-SUS",
     "medicamento": "Atracurio besilato",
     "forma": "Inyectable",
@@ -1976,26 +1956,6 @@
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "DSD040-PR",
-    "medicamento": "Sonda nasogástrica",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 14",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": true
-  },
-  {
-    "programa": "sus",
-    "codigo": "DSD037-SUS",
-    "medicamento": "Sonda nasogástrica N° 6",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 6",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": true
   },
   {
     "programa": "sus",
