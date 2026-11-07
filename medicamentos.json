@@ -331,16 +331,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "D0102-SUS",
-    "medicamento": "Bacitracina + Neomicina sulfato",
-    "forma": "Crema o Pomada",
-    "concentracion": "500 UI + 5 mg/g",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "J0116-SUS",
     "medicamento": "Bencilpenicilina benzatínica",
     "forma": "Inyectable",
