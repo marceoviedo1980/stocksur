@@ -1959,6 +1959,16 @@
   },
   {
     "programa": "sus",
+    "codigo": "DSD041-SUS",
+    "medicamento": "Sonda nasogástrica N° 16",
+    "forma": "Sobre estéril",
+    "concentracion": "N° 16",
+    "cantidad": null,
+    "observacion": "SIN RESTRICCION",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "sus",
     "codigo": "B0533-SUS",
     "medicamento": "Sulfato de Magnesio",
     "forma": "Inyectable",
