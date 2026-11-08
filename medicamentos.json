@@ -1779,16 +1779,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DSC009-SUS",
-    "medicamento": "Seda negra trenzada (N° 2/0)",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 2/0 10 hebras x 75 cm",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "N0114-SUS",
     "medicamento": "Sevoflurano (Trifluorometil etil)",
     "forma": "Solución",
