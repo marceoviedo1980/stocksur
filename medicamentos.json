@@ -1376,16 +1376,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DTO024-SUS",
-    "medicamento": "Máscara para nebulización",
-    "forma": "Pieza",
-    "concentracion": "Para pediatrica",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "P0205-SUS",
     "medicamento": "Mebendazol",
     "forma": "Comprimido",
