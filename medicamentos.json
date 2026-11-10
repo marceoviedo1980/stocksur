@@ -1245,16 +1245,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DJ008-SUS",
-    "medicamento": "Jeringa insulina descartable (1ml)",
-    "forma": "Sobre estéril",
-    "concentracion": "1 ml c/aguja fija N° 29G",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "N0108-SUS",
     "medicamento": "Ketamina (Cetamina)",
     "forma": "Inyecable",
