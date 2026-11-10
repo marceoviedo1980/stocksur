@@ -1406,16 +1406,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "NC-J0169",
-    "medicamento": "Meropenem",
-    "forma": "Inyectable",
-    "concentracion": "500 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "N0205-SUS",
     "medicamento": "Metamizol (Dipirona)",
     "forma": "Inyectable",
