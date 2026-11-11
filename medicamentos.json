@@ -1779,16 +1779,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "B0516-SUS",
-    "medicamento": "Solución de glucosa",
-    "forma": "Solución parenteral de gran vo",
-    "concentracion": "5% (1.000 ml)",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "NC-B0515",
     "medicamento": "Solución de glucosa",
     "forma": "Solución paren de gran volu",
@@ -2019,16 +2009,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DSC027-SUS",
-    "medicamento": "Sutura de seda (N°1)",
-    "forma": "Sobre estéril",
-    "concentracion": "N° 1 c/aguja",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "DSC043-SUS",
     "medicamento": "Sutura nylon",
     "forma": "Sobre esteril",
@@ -2143,16 +2123,6 @@
     "medicamento": "Venda de yeso",
     "forma": "Rollo",
     "concentracion": "4\"",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "DOT074-SUS",
-    "medicamento": "Venda de yeso 6\"",
-    "forma": "Rollo",
-    "concentracion": "6\"",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
