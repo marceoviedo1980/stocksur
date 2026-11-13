@@ -1,5 +1,5 @@
-const CACHE = 'elaltosur-v21';
-const FILES = ['./index.html', './medicamentos.json', './manifest.json', './icon-192.png', './icon-512.png'];
+const CACHE = 'elaltosur-v22';
+const FILES = ['./index.html', './medicamentos.json', './novedades.json', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
