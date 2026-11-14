@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "fecha": "2026-11-14",
+    "tipo": "ingreso",
+    "codigo": "A1001-SUS",
+    "nombre": "Glibenclamida 5 mg Comprimido",
+    "programa": "sus"
+  }
+]
