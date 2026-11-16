@@ -1,5 +1,12 @@
 [
   {
+    "fecha": "2026-11-16",
+    "tipo": "sinstock",
+    "codigo": "DAC060-SUS",
+    "nombre": "Catéter Venoso Central Triple lumen Set 7FRx12\"(30cm) Sobre estéril",
+    "programa": "sus"
+  },
+  {
     "fecha": "2026-11-14",
     "tipo": "ingreso",
     "codigo": "A1001-SUS",

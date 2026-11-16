@@ -491,16 +491,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "DAC060-SUS",
-    "medicamento": "Catéter Venoso Central",
-    "forma": "Sobre estéril",
-    "concentracion": "Triple lumen Set 7FRx12\"(30cm)",
-    "cantidad": null,
-    "observacion": "Solo UTI y Emergencia",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "DAC065-SUS",
     "medicamento": "Catéter venoso periférico (N°18)",
     "forma": "Sobre estéril",
