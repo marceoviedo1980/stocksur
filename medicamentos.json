@@ -41,16 +41,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "A1102-SUS",
-    "medicamento": "Ácido Ascórbico (Vitamina C)",
-    "forma": "Inyectable",
-    "concentracion": "500 mg/ml (2 ml)",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "B0301-SUS",
     "medicamento": "Ácido fólico",
     "forma": "Comprimido",
