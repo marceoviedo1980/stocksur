@@ -3293,7 +3293,7 @@
     "medicamento": "Capecitabine",
     "forma": "Comprimido",
     "concentracion": "500 mg",
-    "cantidad": 1181,
+    "cantidad": 915,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3339,7 +3339,7 @@
     "medicamento": "Ciclofosfamida",
     "forma": "Inyectable",
     "concentracion": "1 g",
-    "cantidad": 375,
+    "cantidad": 366,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3363,7 +3363,7 @@
     "medicamento": "Citarabina",
     "forma": "inyectable",
     "concentracion": "500 mg",
-    "cantidad": 37,
+    "cantidad": 19,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3427,7 +3427,7 @@
     "medicamento": "Docetaxel",
     "forma": "Inyectable",
     "concentracion": "40 mg/ml (2ml) 80MG",
-    "cantidad": 109,
+    "cantidad": 96,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3450,7 +3450,7 @@
     "medicamento": "Doxorrubicina liposomal pegilada",
     "forma": "Inyectable",
     "concentracion": "20 mg/ 10 ml",
-    "cantidad": 115,
+    "cantidad": 107,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3463,7 +3463,7 @@
     "medicamento": "Doxorubicina clorhidrato (Adriamicina clorh.)",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 361,
+    "cantidad": 356,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3521,7 +3521,7 @@
     "medicamento": "Filgrastrim",
     "forma": "Inyectable",
     "concentracion": "300 mcg/ml",
-    "cantidad": 99,
+    "cantidad": 173,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3558,7 +3558,7 @@
     "medicamento": "Gemcitabina",
     "forma": "Inyectable",
     "concentracion": "1 g",
-    "cantidad": 70,
+    "cantidad": 49,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3644,7 +3644,7 @@
     "medicamento": "Leucovorina",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 69,
+    "cantidad": 63,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3721,7 +3721,7 @@
     "medicamento": "Mesna (Mercapto etilsulfonato sódico)",
     "forma": "Inyectable",
     "concentracion": "400 mg",
-    "cantidad": 20,
+    "cantidad": 17,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3764,7 +3764,7 @@
     "medicamento": "Metotrexato",
     "forma": "Inyectable",
     "concentracion": "500 mg",
-    "cantidad": 10,
+    "cantidad": 81,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3778,7 +3778,7 @@
     "medicamento": "Metotrexato",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 20,
+    "cantidad": 276,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3863,7 +3863,7 @@
     "medicamento": "Ondansetrón",
     "forma": "Inyectable",
     "concentracion": "8 mg",
-    "cantidad": 282,
+    "cantidad": 1045,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3876,7 +3876,7 @@
     "medicamento": "Oxaliplatino",
     "forma": "Inyectable",
     "concentracion": "100 mg",
-    "cantidad": 152,
+    "cantidad": 141,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3900,7 +3900,7 @@
     "medicamento": "Paclitaxel",
     "forma": "Inyectable",
     "concentracion": "300 mg/50 ml",
-    "cantidad": 686,
+    "cantidad": 670,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3974,7 +3974,7 @@
     "medicamento": "Rituximab",
     "forma": "Inyectable",
     "concentracion": "500 mg/50 ml",
-    "cantidad": 34,
+    "cantidad": 33,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -4091,7 +4091,7 @@
     "medicamento": "Temozolomida",
     "forma": "Cápsula",
     "concentracion": "100 mg",
-    "cantidad": 1047,
+    "cantidad": 1017,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -4105,7 +4105,7 @@
     "medicamento": "Temozolomida",
     "forma": "Cápsula",
     "concentracion": "20 mg",
-    "cantidad": 40,
+    "cantidad": 5,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -4138,7 +4138,7 @@
     "medicamento": "Trastuzumab",
     "forma": "Inyectable",
     "concentracion": "440 mg",
-    "cantidad": 30,
+    "cantidad": 26,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -4152,7 +4152,7 @@
     "medicamento": "Triptorelina",
     "forma": "Inyectable",
     "concentracion": "22,5 mg",
-    "cantidad": 47,
+    "cantidad": 45,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -4180,7 +4180,7 @@
     "medicamento": "Vincristina",
     "forma": "Inyectable",
     "concentracion": "1 mg/ml (1ML)",
-    "cantidad": 177,
+    "cantidad": 174,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
