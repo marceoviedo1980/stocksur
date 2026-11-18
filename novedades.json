@@ -1,5 +1,44 @@
 [
   {
+    "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "codigo": "G0319",
+    "nombre": "Levonorgestrel 150 mg (2 x 75 mg) Implante subdérmico",
+    "programa": "ipas"
+  },
+  {
+    "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "codigo": "G0313",
+    "nombre": "Medroxiprogesterona acetato 150 mg/ml Inyectable",
+    "programa": "ipas"
+  },
+  {
+    "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "codigo": "G0320",
+    "nombre": "Levonorgestrel 1,5 mg Comprimido (PAE)",
+    "programa": "ipas"
+  },
+  {
+    "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "nombre": "T de Cobre (DIU)",
+    "programa": "ipas"
+  },
+  {
+    "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "nombre": "Mifepristona + Misoprostol (Combipack)",
+    "programa": "ipas"
+  },
+  {
+    "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "nombre": "Cajas de evidencia",
+    "programa": "ipas"
+  },
+  {
     "fecha": "2026-11-16",
     "tipo": "sinstock",
     "codigo": "A1102-SUS",

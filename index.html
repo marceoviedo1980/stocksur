@@ -539,6 +539,26 @@
     .nv-new { background: #e53935; color: #fff; font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 8px; flex-shrink: 0; }
     .nv-go { color: var(--text-muted); font-size: 18px; flex-shrink: 0; }
     .nv-empty { text-align: center; color: var(--text-muted); font-size: 14px; padding: 30px 10px; }
+
+    /* Botones de la cabecera: campanita y baja rotación (debajo) */
+    .hdr-actions { display: flex; flex-direction: column; gap: 10px; align-self: flex-start; flex-shrink: 0; }
+    .hdr-actions .bell-btn { align-self: auto; }
+    .rot-btn { display: flex; }
+    .rot-btn.active { background: #ffd23f; border-color: #fff; color: #4a3500; box-shadow: 0 2px 8px rgba(0,0,0,0.35); }
+
+    /* Programa IPAS BOLIVIA */
+    .cat-summary { display: none; grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 8px 12px 0; }
+    .cat-summary.show { display: grid; }
+    .cat-chip { border: 2px solid transparent; border-radius: 10px; padding: 7px 8px; background: #e0f2f3; color: #0b5d62;
+      font-family: 'IBM Plex Sans', sans-serif; font-size: 12px; font-weight: 700; line-height: 1.2; cursor: pointer; text-align: left;
+      display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+    .cat-chip b { font-family: 'IBM Plex Mono', monospace; font-size: 14px; }
+    .cat-chip.active { border-color: #0b5d62; box-shadow: 0 2px 6px rgba(0,0,0,0.25); }
+    .cat-hint { grid-column: 1 / -1; font-size: 11px; color: var(--text-muted); text-align: center; }
+    .cat-head { font-size: 13px; font-weight: 700; color: #0b5d62; padding: 12px 4px 6px; }
+    .card-lote { padding: 6px 14px; font-size: 12px; color: #0b5d62; background: #e8f5f6; border-top: 1px solid #c9e6e8;
+      font-family: 'IBM Plex Mono', monospace; display: flex; flex-wrap: wrap; gap: 2px 14px; }
+    .card-det { padding: 6px 14px; font-size: 12px; color: var(--text-muted); background: #fafafa; border-top: 1px solid var(--border); line-height: 1.4; }
   </style>
 </head>
 <body>
@@ -552,10 +572,15 @@
       <p style="font-size:10px;opacity:0.6;margin-top:2px;font-family:'IBM Plex Sans',sans-serif;">Desarrollado por: Marcelo Oviedo Lazcano</p>
       <p style="font-size:10px;opacity:0.6;margin-top:1px;font-family:'IBM Plex Sans',sans-serif;">UNIDAD DE FARMACIA</p>
     </div>
-    <button class="bell-btn" id="bellBtn" type="button" aria-label="Novedades">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
-      <span class="bell-badge" id="bellBadge"></span>
-    </button>
+    <div class="hdr-actions">
+      <button class="bell-btn" id="bellBtn" type="button" aria-label="Novedades">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+        <span class="bell-badge" id="bellBadge"></span>
+      </button>
+      <button class="bell-btn rot-btn" id="rotBtn" type="button" aria-label="Baja rotación" title="Baja rotación">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.17a2 2 0 0 0-.59-1.42L12 12l-4.41 4.41A2 2 0 0 0 7 17.83V22"/><path d="M7 2v4.17a2 2 0 0 0 .59 1.42L12 12l4.41-4.41A2 2 0 0 0 17 6.17V2"/></svg>
+      </button>
+    </div>
   </div>
   <div class="search-wrap">
     <div class="search-box">
@@ -569,7 +594,7 @@
       <button class="tab" data-prog="cancer" style="--c:#d946a0">Lucha contra el Cáncer</button>
       <button class="tab" data-prog="tb" style="--c:#f07d1a">Tuberculosis</button>
       <button class="tab" data-prog="vih" style="--c:#8b5cf6">VIH</button>
-      <button class="tab" data-prog="rot" style="--c:#ffd23f;--t:#4a3500">⏳ Baja rotación</button>
+      <button class="tab" data-prog="ipas" style="--c:#0f8b8d">Programa IPAS BOLIVIA</button>
     </div>
   </div>
 </header>
@@ -582,6 +607,7 @@
 
 <div class="results-bar" id="resultsBar">Cargando...</div>
 <div class="al-summary" id="alSummary"></div>
+<div class="cat-summary" id="catSummary"></div>
 
 <div id="listContainer"></div>
 
@@ -621,11 +647,18 @@ const PROGRAMAS = {
   cancer: 'Lucha contra el Cáncer',
   tb:     'Tuberculosis',
   vih:    'VIH',
+  ipas:   'Programa IPAS BOLIVIA',
   rot:    'Baja rotación'
 };
+const CATEGORIAS = {
+  ssr: 'Salud sexual y reproductiva',
+  vvs: 'Atención a víctimas de violencia sexual'
+};
+const ORDEN_CATEGORIAS = ['ssr', 'vvs'];
+let catFilter = null;
 const COLORES = {
   sus: '#1f9d57', renal: '#2f8fff', cancer: '#d946a0',
-  tb: '#f07d1a', vih: '#8b5cf6', rot: '#ffd23f'
+  tb: '#f07d1a', vih: '#8b5cf6', ipas: '#0f8b8d', rot: '#ffd23f'
 };
 
 let allData = [];
@@ -671,6 +704,24 @@ function renderSummary() {
   box.classList.add('show');
 }
 
+function renderCatSummary() {
+  const box = document.getElementById('catSummary');
+  if (currentProg !== 'ipas') { box.classList.remove('show'); box.innerHTML = ''; return; }
+  const items = allData.filter(i => i.programa === 'ipas');
+  box.innerHTML = ORDEN_CATEGORIAS.map(c => {
+    const n = items.filter(i => i.categoria === c).length;
+    return `<button class="cat-chip ${catFilter === c ? 'active' : ''}" data-cat="${c}"><span>${CATEGORIAS[c]}</span><b>${n}</b></button>`;
+  }).join('') + `<div class="cat-hint">${catFilter ? 'Toca de nuevo para ver todo el programa' : 'Toca una categoría para filtrar'}</div>`;
+  box.classList.add('show');
+}
+
+document.getElementById('catSummary').addEventListener('click', e => {
+  const b = e.target.closest('.cat-chip');
+  if (!b) return;
+  catFilter = catFilter === b.dataset.cat ? null : b.dataset.cat;
+  render();
+});
+
 document.getElementById('alSummary').addEventListener('click', e => {
   const b = e.target.closest('.al-chip');
   if (!b) return;
@@ -702,6 +753,12 @@ document.getElementById('filterTabs').addEventListener('click', e => {
   if (btn) setProg(btn.dataset.prog, btn);
 });
 
+document.getElementById('rotBtn').addEventListener('click', () => {
+  // Baja rotación: filtro de toda la app. Al tocarlo de nuevo se vuelve a SUS.
+  if (currentProg === 'rot') setProg('sus', document.querySelector('.tab[data-prog="sus"]'));
+  else setProg('rot', null);
+});
+
 function clearSearch() {
   input.value = '';
   currentQuery = '';
@@ -713,9 +770,11 @@ function clearSearch() {
 function setProg(p, el) {
   currentProg = p;
   alertFilter = null;
+  catFilter = null;
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  el.classList.add('active');
-  input.placeholder = `Buscar en ${PROGRAMAS[p]}...`;
+  document.getElementById('rotBtn').classList.toggle('active', p === 'rot');
+  if (el) el.classList.add('active');
+  input.placeholder = `Buscar en ${PROGRAMAS[p].replace('Programa ', '')}...`;
   document.getElementById('resultsBar').style.setProperty('--c', COLORES[p]);
   window.scrollTo(0, 0);
   render();
@@ -782,9 +841,12 @@ function render() {
       if (!item.baja_rotacion) return false;
     } else if (item.programa !== currentProg) return false;
     if (alertFilter && !alertasDe(item).includes(alertFilter)) return false;
+    if (currentProg === 'ipas' && catFilter && item.categoria !== catFilter) return false;
     if (!tokens.length) return true;
     const texto = normalize([item.medicamento, item.codigo, item.forma,
                              item.concentracion, item.observacion,
+                             item.lote, item.vencimiento, item.detalle,
+                             item.categoria ? CATEGORIAS[item.categoria] : '',
                              item.baja_rotacion ? 'baja rotacion' : '',
                              item.controlado ? 'controlado ' + CONTROLADO[item.controlado].texto : '',
                              alertasDe(item).map(a => ALERTAS[a].texto).join(' ')].join(' '));
@@ -795,6 +857,10 @@ function render() {
     `${filtered.length} resultado${filtered.length !== 1 ? 's' : ''} en ${PROGRAMAS[currentProg]}` +
     (alertFilter ? ` · ${ALERTAS[alertFilter].corto}` : '');
   renderSummary();
+  renderCatSummary();
+  if (currentProg === 'ipas') {
+    filtered.sort((a, b) => ORDEN_CATEGORIAS.indexOf(a.categoria) - ORDEN_CATEGORIAS.indexOf(b.categoria));
+  }
 
   if (filtered.length === 0) {
     container.innerHTML = `
@@ -806,8 +872,18 @@ function render() {
     return;
   }
 
+  let catActual = null;
   container.innerHTML = filtered.map((item, i) => {
     const hasObs = tieneRestriccion(item);
+    let catHead = '';
+    if (currentProg === 'ipas' && item.categoria !== catActual) {
+      catActual = item.categoria;
+      catHead = `<div class="cat-head">${esc(CATEGORIAS[item.categoria] || '')}</div>`;
+    }
+    const loteHTML = (item.lote || item.vencimiento)
+      ? `<div class="card-lote">${item.lote ? `<span>Lote: ${highlight(item.lote, tokens)}</span>` : ''}${item.vencimiento ? `<span>Vence: ${esc(item.vencimiento)}</span>` : ''}</div>`
+      : '';
+    const detHTML = item.detalle ? `<div class="card-det">${esc(item.detalle)}</div>` : '';
     const nameHL = highlight(item.medicamento, tokens);
     const progTag = currentProg === 'rot'
       ? ` <span class="prog-tag" style="--c:${COLORES[item.programa]}">${esc(PROGRAMAS[item.programa])}</span>`
@@ -829,7 +905,7 @@ function render() {
     const obsHTML = item.observacion
       ? (hasObs ? `<div class="card-obs">⚠️ ${esc(item.observacion)}</div>` : `<div class="card-obs ok">✓ ${esc(item.observacion)}</div>`)
       : '';
-    return `
+    return `${catHead}
       <div class="card ${hasObs ? 'has-obs' : ''} ${item.baja_rotacion ? 'has-rot' : ''} ${ctl ? 'has-ctrl' : ''} ${alClase}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
         <div class="card-body">
           <div class="card-main">
@@ -840,6 +916,8 @@ function render() {
         </div>
         ${ctrlHTML}
         ${alHTML}
+        ${loteHTML}
+        ${detHTML}
         ${obsHTML}
         ${rotHTML}
       </div>`;
@@ -864,6 +942,35 @@ function openModal(idx) {
       <div class="detail-label">Concentración / Presentación</div>
       <div class="detail-value">${esc(item.concentracion) || '—'}</div>
     </div>`;
+
+  if (item.categoria && CATEGORIAS[item.categoria]) {
+    bodyHTML += `
+    <div class="detail-row">
+      <div class="detail-label">Categoría</div>
+      <div class="detail-value">${esc(CATEGORIAS[item.categoria])}</div>
+    </div>`;
+  }
+  if (item.lote) {
+    bodyHTML += `
+    <div class="detail-row">
+      <div class="detail-label">Lote</div>
+      <div class="detail-value">${esc(item.lote)}</div>
+    </div>`;
+  }
+  if (item.vencimiento) {
+    bodyHTML += `
+    <div class="detail-row">
+      <div class="detail-label">Fecha de vencimiento</div>
+      <div class="detail-value">${esc(item.vencimiento)}</div>
+    </div>`;
+  }
+  if (item.detalle) {
+    bodyHTML += `
+    <div class="detail-row">
+      <div class="detail-label">Detalle</div>
+      <div class="detail-value" style="font-size:14px">${esc(item.detalle)}</div>
+    </div>`;
+  }
 
   if (tieneStock(item)) {
     bodyHTML += `
@@ -973,7 +1080,10 @@ function closeModal(e) {
     return n && typeof n.nombre === 'string' && n.nombre && TIPOS.some(function (t) { return t[0] === n.tipo; }) && reciente(n.fecha);
   }
   function indice(n) {
-    if (!n.codigo) return -1;
+    if (!n.codigo) {
+      if (!n.programa) return -1;
+      return allData.findIndex(function (i) { return i.programa === n.programa && i.medicamento === n.nombre; });
+    }
     return allData.findIndex(function (i) { return i.codigo === n.codigo && (!n.programa || i.programa === n.programa); });
   }
   function pintarBadge() {
