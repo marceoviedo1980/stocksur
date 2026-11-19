@@ -1538,16 +1538,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "N0705-SUS",
-    "medicamento": "Neostigmina",
-    "forma": "Inyectable",
-    "concentracion": "0,5 mg/ml",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "J0151-SUS",
     "medicamento": "Nitrofurantoína",
     "forma": "Comprimido",

@@ -1,6 +1,13 @@
 [
   {
     "fecha": "2026-11-18",
+    "tipo": "sinstock",
+    "codigo": "N0705-SUS",
+    "nombre": "Neostigmina 0,5 mg/ml Inyectable",
+    "programa": "sus"
+  },
+  {
+    "fecha": "2026-11-18",
     "tipo": "ingreso",
     "codigo": "G0319",
     "nombre": "Levonorgestrel 150 mg (2 x 75 mg) Implante subdérmico",
