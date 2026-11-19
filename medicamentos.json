@@ -1949,6 +1949,16 @@
   },
   {
     "programa": "sus",
+    "codigo": "DSC013",
+    "medicamento": "Sutura Cat Gut cromado (N° 1)",
+    "forma": "Sobre estéril",
+    "concentracion": "N° 1 c/aguja",
+    "cantidad": null,
+    "observacion": "SIN RESTRICCION",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "sus",
     "codigo": "DSC026-SUS",
     "medicamento": "Sutura de seda",
     "forma": "Sobre estéril",

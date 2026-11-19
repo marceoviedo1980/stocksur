@@ -1,6 +1,13 @@
 [
   {
     "fecha": "2026-11-18",
+    "tipo": "ingreso",
+    "codigo": "DSC013",
+    "nombre": "Sutura Cat Gut cromado (N° 1) c/aguja",
+    "programa": "sus"
+  },
+  {
+    "fecha": "2026-11-18",
     "tipo": "sinstock",
     "codigo": "N0705-SUS",
     "nombre": "Neostigmina 0,5 mg/ml Inyectable",
