@@ -1,5 +1,12 @@
 [
   {
+    "fecha": "2026-11-20",
+    "tipo": "sinstock",
+    "codigo": "G0401-SUS",
+    "nombre": "Finasterida 5 mg Comprimido",
+    "programa": "sus"
+  },
+  {
     "fecha": "2026-11-18",
     "tipo": "ingreso",
     "codigo": "DSC013",

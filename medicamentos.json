@@ -945,16 +945,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "G0401-SUS",
-    "medicamento": "Finasterida",
-    "forma": "Comprimido",
-    "concentracion": "5 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": true
-  },
-  {
-    "programa": "sus",
     "codigo": "B0202-SUS",
     "medicamento": "Fitomenadiona (Vitamina K1)",
     "forma": "Inyectable",
