@@ -543,6 +543,7 @@
     /* Botones de la cabecera: campanita y baja rotación (debajo) */
     .hdr-actions { display: flex; flex-direction: column; gap: 10px; align-self: flex-start; flex-shrink: 0; }
     .hdr-actions .bell-btn { align-self: auto; }
+    .hdr-row { display: flex; flex-direction: row; gap: 8px; }
     .rot-btn, .ctl-btn { display: flex; }
     .rot-btn.active { background: #ffd23f; border-color: #fff; color: #4a3500; box-shadow: 0 2px 8px rgba(0,0,0,0.35); }
 
@@ -591,12 +592,14 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
         <span class="bell-badge" id="bellBadge"></span>
       </button>
+      <div class="hdr-row">
       <button class="bell-btn rot-btn" id="rotBtn" type="button" aria-label="Baja rotación" title="Baja rotación">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.17a2 2 0 0 0-.59-1.42L12 12l-4.41 4.41A2 2 0 0 0 7 17.83V22"/><path d="M7 2v4.17a2 2 0 0 0 .59 1.42L12 12l4.41-4.41A2 2 0 0 0 17 6.17V2"/></svg>
       </button>
       <button class="bell-btn ctl-btn" id="ctlBtn" type="button" aria-label="Psicotrópicos y estupefacientes" title="Psicotrópicos y estupefacientes">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v5"/><circle cx="12" cy="16.5" r="0.6" fill="currentColor"/></svg>
       </button>
+      </div>
     </div>
   </div>
   <div class="search-wrap">

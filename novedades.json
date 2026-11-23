@@ -1,5 +1,215 @@
 [
   {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "D0603-SUS",
+    "nombre": "Aciclovir 5% Crema dérmica",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DOT003",
+    "nombre": "Algodón 200 grs. Paquete",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DOT005",
+    "nombre": "Algodón 100 grs. Paquete",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "J0104-SUS",
+    "nombre": "Amikacina 500mg /2 ml Inyectable",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "B0503-SUS",
+    "nombre": "Aminoácidos 10% Solución",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DOT018-SR-SUS",
+    "nombre": "Apósitos adhesivos (10 x 12) Dimensiones 10 Sobre",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "C1001-SUS",
+    "nombre": "Atorvastatina 10 mg Comprimido",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DB002",
+    "nombre": "Bolsa colectora de orina 2000 ml c/válvula Bolsa",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "C0704-SUS",
+    "nombre": "Carvedilol 6,25 mg Comprimido",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "R0607-SUS",
+    "nombre": "Cetirizina 10 mg Cápsula",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "A1106-SUS",
+    "nombre": "Complejo B (B1 + B6 + B12) Según concentración estándar Comprimido o Capsula",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "M0103-SUS",
+    "nombre": "Diclofenaco Sódico 75 mg Inyectable",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "J0141-SUS",
+    "nombre": "Dicloxacilina sódica 500 mg Cápsula",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DAC073-SUS",
+    "nombre": "Equipo de trasfusión Bolsa C/cámara goteo flexible Sobre estéril",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DMQ020-SUS",
+    "nombre": "Guantes quirúrgicos (6 1/2) N° 6 1/2 puño largo Sobre estéril",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "C0204-SUS",
+    "nombre": "Metildopa (Alfametildopa) 500 mg Comprimido",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "P0109-SUS",
+    "nombre": "Metronidazol 500 mg Comprimido",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "BID-B0521",
+    "nombre": "Solución de Manitol 20% (500 ml) Solución parenteral de gran vo",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "B0308-SUS",
+    "nombre": "Sulfato ferroso + Ac. Fólico + Vitamina C 200 mg + 0,5 mg + 150 mg Comprimido",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DAC093-SUS",
+    "nombre": "Tapón heparinizado Pieza Pieza",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "J0155-SUS",
+    "nombre": "Vancomicina 500 mg Inyectable",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "DOT071-SUS",
+    "nombre": "Venda de gasa 4\" 4\" Rollo",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0209-LCC-SUS",
+    "nombre": "Abiraterona Acetato 250 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0201-LCC-SUS",
+    "nombre": "Anastrozol 1 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0132-LCC-SUS",
+    "nombre": "Carboplatino 150 mg Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "S/C",
+    "nombre": "Equipo de filtro Pieza Pieza",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0204-LCC-SUS",
+    "nombre": "Letrozol 2,5 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0128-LCC-SUS",
+    "nombre": "Paclitaxel 30 mg/5 ml Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0158-LCC-SUS",
+    "nombre": "Pertuzumab 420 mg/14 ml Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "L0205-LCC-SUS",
+    "nombre": "Tamoxifeno 20 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
     "fecha": "2026-11-20",
     "tipo": "sinstock",
     "codigo": "G0401-SUS",
