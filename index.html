@@ -553,7 +553,13 @@
       font-family: 'IBM Plex Sans', sans-serif; font-size: 12px; font-weight: 700; line-height: 1.2; cursor: pointer; text-align: left;
       display: flex; justify-content: space-between; align-items: center; gap: 6px; }
     .cat-chip b { font-family: 'IBM Plex Mono', monospace; font-size: 14px; }
-    .cat-chip.active { border-color: #0b5d62; box-shadow: 0 2px 6px rgba(0,0,0,0.25); }
+    .cat-chip[data-cat="ssr"] { background: #e3f2fd; color: #0d47a1; border-color: #1e88e5; }
+    .cat-chip[data-cat="vvs"] { background: #f3e5f5; color: #6a1b9a; border-color: #8e24aa; }
+    .cat-chip.active { box-shadow: 0 2px 6px rgba(0,0,0,0.3); color: #fff; }
+    .cat-chip[data-cat="ssr"].active { background: #1e88e5; border-color: #0d47a1; }
+    .cat-chip[data-cat="vvs"].active { background: #8e24aa; border-color: #4a148c; }
+    .cat-head.cat-ssr { color: #0d47a1; border-left: 5px solid #1e88e5; padding-left: 8px; }
+    .cat-head.cat-vvs { color: #6a1b9a; border-left: 5px solid #8e24aa; padding-left: 8px; }
     .cat-hint { grid-column: 1 / -1; font-size: 11px; color: var(--text-muted); text-align: center; }
     .cat-head { font-size: 13px; font-weight: 700; color: #0b5d62; padding: 12px 4px 6px; }
     .card-lote { padding: 6px 14px; font-size: 12px; color: #0b5d62; background: #e8f5f6; border-top: 1px solid #c9e6e8;
@@ -878,7 +884,7 @@ function render() {
     let catHead = '';
     if (currentProg === 'ipas' && item.categoria !== catActual) {
       catActual = item.categoria;
-      catHead = `<div class="cat-head">${esc(CATEGORIAS[item.categoria] || '')}</div>`;
+      catHead = `<div class="cat-head cat-${item.categoria}">${esc(CATEGORIAS[item.categoria] || '')}</div>`;
     }
     const loteHTML = (item.lote || item.vencimiento)
       ? `<div class="card-lote">${item.lote ? `<span>Lote: ${highlight(item.lote, tokens)}</span>` : ''}${item.vencimiento ? `<span>Vence: ${esc(item.vencimiento)}</span>` : ''}</div>`
