@@ -543,8 +543,16 @@
     /* Botones de la cabecera: campanita y baja rotación (debajo) */
     .hdr-actions { display: flex; flex-direction: column; gap: 10px; align-self: flex-start; flex-shrink: 0; }
     .hdr-actions .bell-btn { align-self: auto; }
-    .rot-btn { display: flex; }
+    .rot-btn, .ctl-btn { display: flex; }
     .rot-btn.active { background: #ffd23f; border-color: #fff; color: #4a3500; box-shadow: 0 2px 8px rgba(0,0,0,0.35); }
+
+    .ctl-btn.active { background: #b71c1c; border-color: #fff; color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.35); }
+    .cat-chip[data-ctl="psicotropico"] { background: #fde8e8; color: #b71c1c; border-color: #e57373; }
+    .cat-chip[data-ctl="estupefaciente"] { background: #fff; color: #b71c1c; border-color: #b71c1c; }
+    .cat-chip[data-ctl="psicotropico"].active { background: #e57373; border-color: #b71c1c; color: #fff; }
+    .cat-chip[data-ctl="estupefaciente"].active { background: #b71c1c; border-color: #7f0000; color: #fff; }
+    .cat-head.ctl-psicotropico { color: #b71c1c; border-left: 5px solid #e57373; padding-left: 8px; }
+    .cat-head.ctl-estupefaciente { color: #b71c1c; border-left: 5px solid #b71c1c; padding-left: 8px; }
 
     /* Programa IPAS BOLIVIA */
     .cat-summary { display: none; grid-template-columns: repeat(2, 1fr); gap: 6px; padding: 8px 12px 0; }
@@ -585,6 +593,9 @@
       </button>
       <button class="bell-btn rot-btn" id="rotBtn" type="button" aria-label="Baja rotación" title="Baja rotación">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.17a2 2 0 0 0-.59-1.42L12 12l-4.41 4.41A2 2 0 0 0 7 17.83V22"/><path d="M7 2v4.17a2 2 0 0 0 .59 1.42L12 12l4.41-4.41A2 2 0 0 0 17 6.17V2"/></svg>
+      </button>
+      <button class="bell-btn ctl-btn" id="ctlBtn" type="button" aria-label="Psicotrópicos y estupefacientes" title="Psicotrópicos y estupefacientes">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v5"/><circle cx="12" cy="16.5" r="0.6" fill="currentColor"/></svg>
       </button>
     </div>
   </div>
@@ -654,8 +665,12 @@ const PROGRAMAS = {
   tb:     'Tuberculosis',
   vih:    'VIH',
   ipas:   'Programa IPAS BOLIVIA',
-  rot:    'Baja rotación'
+  rot:    'Baja rotación',
+  ctrl:   'Psicotrópicos y estupefacientes'
 };
+const ORDEN_CONTROLADOS = ['psicotropico', 'estupefaciente'];
+const NOMBRE_CONTROLADOS = { psicotropico: 'Psicotrópicos', estupefaciente: 'Estupefacientes' };
+let ctlFilter = null;
 const CATEGORIAS = {
   ssr: 'Salud sexual y reproductiva',
   vvs: 'Atención a víctimas de violencia sexual'
@@ -664,7 +679,7 @@ const ORDEN_CATEGORIAS = ['ssr', 'vvs'];
 let catFilter = null;
 const COLORES = {
   sus: '#1f9d57', renal: '#2f8fff', cancer: '#d946a0',
-  tb: '#f07d1a', vih: '#8b5cf6', ipas: '#0f8b8d', rot: '#ffd23f'
+  tb: '#f07d1a', vih: '#8b5cf6', ipas: '#0f8b8d', rot: '#ffd23f', ctrl: '#b71c1c'
 };
 
 let allData = [];
@@ -712,6 +727,15 @@ function renderSummary() {
 
 function renderCatSummary() {
   const box = document.getElementById('catSummary');
+  if (currentProg === 'ctrl') {
+    const items = allData.filter(i => i.controlado);
+    box.innerHTML = ORDEN_CONTROLADOS.map(c => {
+      const n = items.filter(i => i.controlado === c).length;
+      return `<button class="cat-chip ${ctlFilter === c ? 'active' : ''}" data-ctl="${c}"><span>${CONTROLADO[c].icono} ${NOMBRE_CONTROLADOS[c]}</span><b>${n}</b></button>`;
+    }).join('') + `<div class="cat-hint">${ctlFilter ? 'Toca de nuevo para ver ambos' : 'Toca una categoría para filtrar'}</div>`;
+    box.classList.add('show');
+    return;
+  }
   if (currentProg !== 'ipas') { box.classList.remove('show'); box.innerHTML = ''; return; }
   const items = allData.filter(i => i.programa === 'ipas');
   box.innerHTML = ORDEN_CATEGORIAS.map(c => {
@@ -724,6 +748,11 @@ function renderCatSummary() {
 document.getElementById('catSummary').addEventListener('click', e => {
   const b = e.target.closest('.cat-chip');
   if (!b) return;
+  if (b.dataset.ctl) {
+    ctlFilter = ctlFilter === b.dataset.ctl ? null : b.dataset.ctl;
+    render();
+    return;
+  }
   catFilter = catFilter === b.dataset.cat ? null : b.dataset.cat;
   render();
 });
@@ -765,6 +794,12 @@ document.getElementById('rotBtn').addEventListener('click', () => {
   else setProg('rot', null);
 });
 
+document.getElementById('ctlBtn').addEventListener('click', () => {
+  // Controlados: vista aparte (psicotrópicos / estupefacientes). Al tocarlo de nuevo se vuelve a SUS.
+  if (currentProg === 'ctrl') setProg('sus', document.querySelector('.tab[data-prog="sus"]'));
+  else setProg('ctrl', null);
+});
+
 function clearSearch() {
   input.value = '';
   currentQuery = '';
@@ -777,8 +812,10 @@ function setProg(p, el) {
   currentProg = p;
   alertFilter = null;
   catFilter = null;
+  ctlFilter = null;
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.getElementById('rotBtn').classList.toggle('active', p === 'rot');
+  document.getElementById('ctlBtn').classList.toggle('active', p === 'ctrl');
   if (el) el.classList.add('active');
   input.placeholder = `Buscar en ${PROGRAMAS[p].replace('Programa ', '')}...`;
   document.getElementById('resultsBar').style.setProperty('--c', COLORES[p]);
@@ -845,6 +882,9 @@ function render() {
   const filtered = allData.filter(item => {
     if (currentProg === 'rot') {
       if (!item.baja_rotacion) return false;
+    } else if (currentProg === 'ctrl') {
+      if (!item.controlado) return false;
+      if (ctlFilter && item.controlado !== ctlFilter) return false;
     } else if (item.programa !== currentProg) return false;
     if (alertFilter && !alertasDe(item).includes(alertFilter)) return false;
     if (currentProg === 'ipas' && catFilter && item.categoria !== catFilter) return false;
@@ -864,6 +904,9 @@ function render() {
     (alertFilter ? ` · ${ALERTAS[alertFilter].corto}` : '');
   renderSummary();
   renderCatSummary();
+  if (currentProg === 'ctrl') {
+    filtered.sort((a, b) => ORDEN_CONTROLADOS.indexOf(a.controlado) - ORDEN_CONTROLADOS.indexOf(b.controlado));
+  }
   if (currentProg === 'ipas') {
     filtered.sort((a, b) => ORDEN_CATEGORIAS.indexOf(a.categoria) - ORDEN_CATEGORIAS.indexOf(b.categoria));
   }
@@ -879,6 +922,7 @@ function render() {
   }
 
   let catActual = null;
+  let ctlActual = null;
   container.innerHTML = filtered.map((item, i) => {
     const hasObs = tieneRestriccion(item);
     let catHead = '';
@@ -886,12 +930,17 @@ function render() {
       catActual = item.categoria;
       catHead = `<div class="cat-head cat-${item.categoria}">${esc(CATEGORIAS[item.categoria] || '')}</div>`;
     }
+    if (currentProg === 'ctrl' && item.controlado !== ctlActual) {
+      ctlActual = item.controlado;
+      const nCtl = filtered.filter(x => x.controlado === ctlActual).length;
+      catHead = `<div class="cat-head ctl-${ctlActual}">${CONTROLADO[ctlActual].icono} ${NOMBRE_CONTROLADOS[ctlActual]} (${nCtl})</div>`;
+    }
     const loteHTML = (item.lote || item.vencimiento)
       ? `<div class="card-lote">${item.lote ? `<span>Lote: ${highlight(item.lote, tokens)}</span>` : ''}${item.vencimiento ? `<span>Vence: ${esc(item.vencimiento)}</span>` : ''}</div>`
       : '';
     const detHTML = item.detalle ? `<div class="card-det">${esc(item.detalle)}</div>` : '';
     const nameHL = highlight(item.medicamento, tokens);
-    const progTag = currentProg === 'rot'
+    const progTag = (currentProg === 'rot' || currentProg === 'ctrl')
       ? ` <span class="prog-tag" style="--c:${COLORES[item.programa]}">${esc(PROGRAMAS[item.programa])}</span>`
       : '';
     const subText = esc([item.forma, item.concentracion].filter(Boolean).join(' · ')) + progTag;
