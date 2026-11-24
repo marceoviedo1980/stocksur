@@ -652,16 +652,6 @@
   },
   {
     "programa": "sus",
-    "codigo": "R0601-SUS",
-    "medicamento": "Clorfenamina (Clorfeniramina)",
-    "forma": "Comprimido",
-    "concentracion": "4 mg",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
     "codigo": "B0506-SUS",
     "medicamento": "Cloruro de potasio",
     "forma": "Inyectable",
@@ -1139,16 +1129,6 @@
     "medicamento": "Ibuprofeno",
     "forma": "Suspensión",
     "concentracion": "100 mg/5 ml",
-    "cantidad": null,
-    "observacion": "SIN RESTRICCION",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "sus",
-    "codigo": "M0105-SUS",
-    "medicamento": "Ibuprofeno",
-    "forma": "Comprimido",
-    "concentracion": "400 mg",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false
@@ -1872,6 +1852,16 @@
     "medicamento": "Sonda Foley N° 16",
     "forma": "Sobre estéril",
     "concentracion": "2 vías N° 16 c/pico luer",
+    "cantidad": null,
+    "observacion": "SIN RESTRICCION",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "sus",
+    "codigo": "DSD040-PR",
+    "medicamento": "Sonda nasogástrica N° 14",
+    "forma": "Sobre estéril",
+    "concentracion": "N° 14",
     "cantidad": null,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false

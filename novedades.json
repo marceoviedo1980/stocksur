@@ -1,6 +1,27 @@
 [
   {
     "fecha": "2026-11-23",
+    "tipo": "ingreso",
+    "codigo": "DSD040-PR",
+    "nombre": "Sonda nasogástrica N° 14 Sobre estéril",
+    "programa": "sus"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "R0601-SUS",
+    "nombre": "Clorfenamina (Clorfeniramina) 4 mg Comprimido",
+    "programa": "sus"
+  },
+  {
+    "fecha": "2026-11-23",
+    "tipo": "sinstock",
+    "codigo": "M0105-SUS",
+    "nombre": "Ibuprofeno 400 mg Comprimido",
+    "programa": "sus"
+  },
+  {
+    "fecha": "2026-11-23",
     "tipo": "sinstock",
     "codigo": "D0603-SUS",
     "nombre": "Aciclovir 5% Crema dérmica",
