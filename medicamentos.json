@@ -2112,7 +2112,7 @@
     "medicamento": "Ácido acetil salicílico",
     "forma": "Comprimido",
     "concentracion": "100 mg",
-    "cantidad": 898,
+    "cantidad": 868,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2132,7 +2132,7 @@
     "medicamento": "Acido citrico",
     "forma": "Solución",
     "concentracion": "50% (5 Litros)",
-    "cantidad": 32,
+    "cantidad": 16,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2142,7 +2142,7 @@
     "medicamento": "Ácido fólico",
     "forma": "Comprimido",
     "concentracion": "5 mg",
-    "cantidad": 2013,
+    "cantidad": 1503,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2152,7 +2152,7 @@
     "medicamento": "Ácido peracético 2%",
     "forma": "Bidón",
     "concentracion": "Solución 2%",
-    "cantidad": 207,
+    "cantidad": 30,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2172,7 +2172,7 @@
     "medicamento": "Aguja para Fístula Arterial venosa",
     "forma": "Sobre",
     "concentracion": "Par N° 17",
-    "cantidad": 725,
+    "cantidad": 630,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2192,7 +2192,7 @@
     "medicamento": "Amlodipina",
     "forma": "Comprimido",
     "concentracion": "10 mg",
-    "cantidad": 2980,
+    "cantidad": 2470,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2212,7 +2212,7 @@
     "medicamento": "Barbijo (pieza)",
     "forma": "Pieza",
     "concentracion": "Pieza",
-    "cantidad": 8800,
+    "cantidad": 8587,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2222,7 +2222,7 @@
     "medicamento": "Bigotera para oxígeno",
     "forma": "Pieza",
     "concentracion": "Adulto siliconado",
-    "cantidad": 101,
+    "cantidad": 99,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2232,7 +2232,7 @@
     "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
     "forma": "Inyectable",
     "concentracion": "20 mg/ml",
-    "cantidad": 14,
+    "cantidad": 12,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2252,7 +2252,7 @@
     "medicamento": "Calcio + Vitamina D",
     "forma": "Comprimido",
     "concentracion": "500 mg (ion cal",
-    "cantidad": 1680,
+    "cantidad": 1170,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2262,7 +2262,7 @@
     "medicamento": "Carvedilol",
     "forma": "Comprimido",
     "concentracion": "12,5 mg",
-    "cantidad": 1490,
+    "cantidad": 980,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2272,7 +2272,7 @@
     "medicamento": "Catéter doble lumen para hemodiálisis",
     "forma": "Sobre",
     "concentracion": "Doble lumen 12",
-    "cantidad": 15,
+    "cantidad": 9,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2288,21 +2288,11 @@
   },
   {
     "programa": "renal",
-    "codigo": "J0127-SUS",
-    "medicamento": "Ciprofloxacina",
-    "forma": "Comprimido",
-    "concentracion": "500 mg",
-    "cantidad": 6,
-    "observacion": "",
-    "baja_rotacion": false
-  },
-  {
-    "programa": "renal",
     "codigo": "R0601-SUS",
     "medicamento": "Clorfenamina (Clorfeniramina)",
     "forma": "Comprimido",
     "concentracion": "4 mg",
-    "cantidad": 5,
+    "cantidad": 85,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2352,7 +2342,17 @@
     "medicamento": "Complejo B (B1 + B6 + B12)",
     "forma": "Comprimido o Capsula",
     "concentracion": "Según concentración estándar",
-    "cantidad": 3700,
+    "cantidad": 3190,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "H0204-SUS",
+    "medicamento": "Dexametasona",
+    "forma": "Inyectable",
+    "concentracion": "4 mg/ml",
+    "cantidad": 130,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2362,7 +2362,17 @@
     "medicamento": "Diclofenaco Sódico",
     "forma": "Pomada o Gel",
     "concentracion": "1%",
-    "cantidad": 18,
+    "cantidad": 17,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "J0141-SUS",
+    "medicamento": "Dicloxacilina sódica",
+    "forma": "Cápsula",
+    "concentracion": "500 mg",
+    "cantidad": 22,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2392,7 +2402,7 @@
     "medicamento": "Equipo de venoclisis",
     "forma": "Sobre estéril",
     "concentracion": "C/control d goteo, aguja Nº 21",
-    "cantidad": 893,
+    "cantidad": 805,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2412,7 +2422,7 @@
     "medicamento": "Eritropoyetina",
     "forma": "Inyectable",
     "concentracion": "10.000 UI",
-    "cantidad": 1568,
+    "cantidad": 1509,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2432,7 +2442,7 @@
     "medicamento": "Filtro para hemodiálisis N°8",
     "forma": "Sobre",
     "concentracion": "Libre de polisu",
-    "cantidad": 254,
+    "cantidad": 231,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2462,7 +2472,7 @@
     "medicamento": "Gorras descartables",
     "forma": "pieza",
     "concentracion": "pieza",
-    "cantidad": 8800,
+    "cantidad": 8587,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2492,7 +2502,7 @@
     "medicamento": "Guantes quirúrgicos (6 1/2)",
     "forma": "Sobre",
     "concentracion": "N° 6 1/2 puño l",
-    "cantidad": 518,
+    "cantidad": 303,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2502,7 +2512,7 @@
     "medicamento": "Guantes quirúrgicos (7)",
     "forma": "Sobre",
     "concentracion": "N° 7 puño largo",
-    "cantidad": 497,
+    "cantidad": 494,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2512,7 +2522,7 @@
     "medicamento": "Heparina sódica",
     "forma": "Inyectable",
     "concentracion": "5.000 UI/ml",
-    "cantidad": 1304,
+    "cantidad": 1441,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2522,7 +2532,7 @@
     "medicamento": "Hierro",
     "forma": "Inyectable",
     "concentracion": "100 mg - IM o I",
-    "cantidad": 255,
+    "cantidad": 492,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2572,7 +2582,7 @@
     "medicamento": "Jeringa descartable (10ml)",
     "forma": "Sobre estéril",
     "concentracion": "10ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 102,
+    "cantidad": 163,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2582,7 +2592,7 @@
     "medicamento": "Jeringa descartable (20ml)",
     "forma": "Sobre estéril",
     "concentracion": "20ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 2074,
+    "cantidad": 1792,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2592,7 +2602,7 @@
     "medicamento": "Jeringa descartable (3ml)",
     "forma": "Sobre estéril",
     "concentracion": "3 ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 2723,
+    "cantidad": 2623,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2662,7 +2672,7 @@
     "medicamento": "Lidocaína clorhidrato sin conservante",
     "forma": "Inyectable",
     "concentracion": "2%",
-    "cantidad": 8,
+    "cantidad": 5,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2672,7 +2682,7 @@
     "medicamento": "Línea Arteriovenosa",
     "forma": "Pieza",
     "concentracion": "Pieza.",
-    "cantidad": 216,
+    "cantidad": 193,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2702,7 +2712,17 @@
     "medicamento": "Losartán",
     "forma": "Comprimido",
     "concentracion": "50 mg",
-    "cantidad": 3960,
+    "cantidad": 2940,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "renal",
+    "codigo": "DTO023-SUS",
+    "medicamento": "Máscara para nebulización",
+    "forma": "Pieza",
+    "concentracion": "Para adultos",
+    "cantidad": 3,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2712,7 +2732,7 @@
     "medicamento": "Metamizol (Dipirona)",
     "forma": "Inyectable",
     "concentracion": "1 g",
-    "cantidad": 224,
+    "cantidad": 207,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2753,7 +2773,7 @@
     "medicamento": "Multivitaminas",
     "forma": "Comprimido",
     "concentracion": "Según concentración estándar",
-    "cantidad": 800,
+    "cantidad": 290,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2783,7 +2803,7 @@
     "medicamento": "Omeprazol",
     "forma": "Cápsula",
     "concentracion": "20 mg",
-    "cantidad": 873,
+    "cantidad": 1363,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2793,7 +2813,7 @@
     "medicamento": "Omeprazol",
     "forma": "Inyectable",
     "concentracion": "40 mg/ml",
-    "cantidad": 28,
+    "cantidad": 24,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2803,7 +2823,7 @@
     "medicamento": "Oxígeno",
     "forma": "Gas",
     "concentracion": "93% - 99%",
-    "cantidad": 484,
+    "cantidad": 14,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2813,7 +2833,7 @@
     "medicamento": "Paracetamol (Acetaminofeno)",
     "forma": "Comprimido",
     "concentracion": "500 mg",
-    "cantidad": 120,
+    "cantidad": 500,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2823,7 +2843,7 @@
     "medicamento": "Solucion Acida",
     "forma": "Solución",
     "concentracion": "Según disponibi",
-    "cantidad": 322,
+    "cantidad": 70,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2833,7 +2853,7 @@
     "medicamento": "Solución Básica",
     "forma": "Solución",
     "concentracion": "Según disponibi",
-    "cantidad": 321,
+    "cantidad": 63,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2883,7 +2903,7 @@
     "medicamento": "Solución Fisiológica",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "0,9% (1.000 ml)",
-    "cantidad": 463,
+    "cantidad": 515,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2903,7 +2923,7 @@
     "medicamento": "Sutura de seda",
     "forma": "Sobre estéril",
     "concentracion": "N° 2/0 c/aguja 2.5 cm 1/2 circ",
-    "cantidad": 10,
+    "cantidad": 7,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2943,7 +2963,7 @@
     "medicamento": "Transductor",
     "forma": "Pieza",
     "concentracion": "Pieza.",
-    "cantidad": 1558,
+    "cantidad": 1345,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2953,7 +2973,17 @@
     "medicamento": "Ungüento dérmico eucalipto mentol",
     "forma": "Ungüento o crema",
     "concentracion": "Según disponibilidad",
-    "cantidad": 2,
+    "cantidad": 4,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "L0209-LCC-SUS",
+    "medicamento": "Abiraterona Acetato",
+    "forma": "Comprimido",
+    "concentracion": "250 mg",
+    "cantidad": 1630,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2963,7 +2993,7 @@
     "medicamento": "Ácido Ascórbico (Vitamina C)",
     "forma": "Inyectable",
     "concentracion": "500 mg/ml (2 ml)",
-    "cantidad": 98,
+    "cantidad": 90,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2979,11 +3009,31 @@
   },
   {
     "programa": "cancer",
+    "codigo": "J0104-SUS",
+    "medicamento": "Amikacina",
+    "forma": "Inyectable",
+    "concentracion": "500mg /2 ml",
+    "cantidad": 21,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "J0105-SUS",
     "medicamento": "Amoxicilina",
     "forma": "Comprimido",
     "concentracion": "1 g",
-    "cantidad": 86,
+    "cantidad": 34,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "J0113-SUS",
+    "medicamento": "Azitromicina",
+    "forma": "Comprimido",
+    "concentracion": "500 mg",
+    "cantidad": 43,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -2993,7 +3043,7 @@
     "medicamento": "Bigotera para oxígeno",
     "forma": "Pieza",
     "concentracion": "Adulto siliconado",
-    "cantidad": 19,
+    "cantidad": 18,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3016,7 +3066,27 @@
     "medicamento": "Bolsa EVA (500 ml)",
     "forma": "Bolsa estéril",
     "concentracion": "Con equipo 500 ml",
-    "cantidad": 399,
+    "cantidad": 380,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC029-SUS",
+    "medicamento": "Bolsa simple de transfusión (sangría)",
+    "forma": "Sobre estéril",
+    "concentracion": "Pieza",
+    "cantidad": 3,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "A0304-SUS",
+    "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
+    "forma": "Inyectable",
+    "concentracion": "20 mg/ml",
+    "cantidad": 48,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3026,7 +3096,7 @@
     "medicamento": "Capecitabine",
     "forma": "Comprimido",
     "concentracion": "500 mg",
-    "cantidad": 915,
+    "cantidad": 3517,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3039,7 +3109,7 @@
     "medicamento": "Catéter venoso periférico (N°20)",
     "forma": "Sobre estéril",
     "concentracion": "Nº 20Gx1 1/2\" c/aletas de fij.",
-    "cantidad": 198,
+    "cantidad": 169,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3049,7 +3119,17 @@
     "medicamento": "Catéter venoso periférico (N°22)",
     "forma": "Sobre estéril",
     "concentracion": "Nº 22 G x 1\"c/aletas de fij.",
-    "cantidad": 178,
+    "cantidad": 83,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DAC068-SUS",
+    "medicamento": "Catéter venoso periférico (N°24)",
+    "forma": "Sobre estéril",
+    "concentracion": "Nº 24 Gx1/2\" c/aletas de fij.",
+    "cantidad": 44,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3059,7 +3139,7 @@
     "medicamento": "Ciclofosfamida",
     "forma": "Inyectable",
     "concentracion": "1 g",
-    "cantidad": 366,
+    "cantidad": 364,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3074,6 +3154,16 @@
     "forma": "Inyectable",
     "concentracion": "200 mg",
     "cantidad": 49,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "L0109-LCC-SUS",
+    "medicamento": "Cisplatino",
+    "forma": "Inyectable",
+    "concentracion": "50 mg",
+    "cantidad": 191,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3097,7 +3187,7 @@
     "medicamento": "Complejo B (B1 + B6 + B12)",
     "forma": "Inyectable",
     "concentracion": "Según concentra",
-    "cantidad": 98,
+    "cantidad": 92,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3107,7 +3197,17 @@
     "medicamento": "Contraste iodado",
     "forma": "Inyectable",
     "concentracion": "Según disponibilidad (50 ml)",
-    "cantidad": 346,
+    "cantidad": 195,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "J0137-SUS",
+    "medicamento": "Cotrimoxazol (Sulfametoxazol + Trimetoprima)",
+    "forma": "Comprimido",
+    "concentracion": "800 mg + 160 mg",
+    "cantidad": 56,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3117,7 +3217,7 @@
     "medicamento": "Dexametasona",
     "forma": "Comprimido",
     "concentracion": "4 mg",
-    "cantidad": 1000,
+    "cantidad": 869,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3127,7 +3227,7 @@
     "medicamento": "Dexametasona",
     "forma": "Inyectable",
     "concentracion": "4 mg/ml",
-    "cantidad": 964,
+    "cantidad": 831,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3137,7 +3237,17 @@
     "medicamento": "Diclofenaco Sódico",
     "forma": "Pomada o Gel",
     "concentracion": "1%",
-    "cantidad": 9,
+    "cantidad": 7,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "J0141-SUS",
+    "medicamento": "Dicloxacilina sódica",
+    "forma": "Cápsula",
+    "concentracion": "500 mg",
+    "cantidad": 51,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3147,7 +3257,7 @@
     "medicamento": "Docetaxel",
     "forma": "Inyectable",
     "concentracion": "40 mg/ml (2ml) 80MG",
-    "cantidad": 96,
+    "cantidad": 93,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3183,7 +3293,7 @@
     "medicamento": "Doxorubicina clorhidrato (Adriamicina clorh.)",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 356,
+    "cantidad": 354,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3197,7 +3307,7 @@
     "medicamento": "Equipo de trasfusión",
     "forma": "Sobre estéril",
     "concentracion": "Bolsa C/cámara goteo flexible",
-    "cantidad": 7,
+    "cantidad": 5,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3207,7 +3317,7 @@
     "medicamento": "Equipo de venoclisis",
     "forma": "Sobre estéril",
     "concentracion": "C/control d goteo, aguja Nº 21",
-    "cantidad": 951,
+    "cantidad": 757,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3217,7 +3327,7 @@
     "medicamento": "Etopósido",
     "forma": "Inyectable",
     "concentracion": "100 mg/5 ml",
-    "cantidad": 145,
+    "cantidad": 143,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3231,7 +3341,7 @@
     "medicamento": "Filgrastrim",
     "forma": "Inyectable",
     "concentracion": "300 mcg/ml",
-    "cantidad": 173,
+    "cantidad": 96,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3258,7 +3368,7 @@
     "medicamento": "Furosemida",
     "forma": "Inyectable",
     "concentracion": "10 mg/ml",
-    "cantidad": 50,
+    "cantidad": 45,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3268,7 +3378,7 @@
     "medicamento": "Gemcitabina",
     "forma": "Inyectable",
     "concentracion": "1 g",
-    "cantidad": 49,
+    "cantidad": 35,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3301,7 +3411,17 @@
     "medicamento": "Hidrocortisona succinato sódico",
     "forma": "Inyectable",
     "concentracion": "100 mg",
-    "cantidad": 49,
+    "cantidad": 42,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "L0120-LCC-SUS",
+    "medicamento": "Ifosfamida",
+    "forma": "Inyectable",
+    "concentracion": "1 g",
+    "cantidad": 56,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3311,7 +3431,7 @@
     "medicamento": "Jeringa descartable (10ml)",
     "forma": "Sobre estéril",
     "concentracion": "10ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 1179,
+    "cantidad": 1056,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3321,7 +3441,7 @@
     "medicamento": "Jeringa descartable (20ml)",
     "forma": "Sobre estéril",
     "concentracion": "20ml c/aguja 21x1 1/2\" c/rosca",
-    "cantidad": 200,
+    "cantidad": 140,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3331,7 +3451,17 @@
     "medicamento": "Jeringa descartable (50ml)",
     "forma": "Sobre estéril",
     "concentracion": "50 ml Luer",
-    "cantidad": 224,
+    "cantidad": 163,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "L0204-LCC-SUS",
+    "medicamento": "Letrozol",
+    "forma": "Comprimido",
+    "concentracion": "2,5 mg",
+    "cantidad": 2130,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3341,7 +3471,7 @@
     "medicamento": "Leucovorina",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 63,
+    "cantidad": 65,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3384,7 +3514,7 @@
     "medicamento": "Llave de 3 vías c/a",
     "forma": "Sobre estéril",
     "concentracion": "Con alargador 50 cm - 10cm",
-    "cantidad": 47,
+    "cantidad": 119,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3394,7 +3524,7 @@
     "medicamento": "Llave de 3 vías s/a",
     "forma": "Sobre estéril",
     "concentracion": "Sin alargador",
-    "cantidad": 173,
+    "cantidad": 113,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3431,7 +3561,7 @@
     "medicamento": "Metamizol (Dipirona)",
     "forma": "Inyectable",
     "concentracion": "1 g",
-    "cantidad": 198,
+    "cantidad": 195,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3441,7 +3571,7 @@
     "medicamento": "Metoclopramida",
     "forma": "Comprimido",
     "concentracion": "10 mg",
-    "cantidad": 600,
+    "cantidad": 197,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3451,7 +3581,7 @@
     "medicamento": "Metoclopramida",
     "forma": "Inyectable",
     "concentracion": "10mg / 2ml",
-    "cantidad": 1100,
+    "cantidad": 1098,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3461,7 +3591,7 @@
     "medicamento": "Metotrexato",
     "forma": "Inyectable",
     "concentracion": "500 mg",
-    "cantidad": 81,
+    "cantidad": 6,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3475,7 +3605,7 @@
     "medicamento": "Metotrexato",
     "forma": "Inyectable",
     "concentracion": "50 mg",
-    "cantidad": 276,
+    "cantidad": 19,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3485,11 +3615,31 @@
   },
   {
     "programa": "cancer",
+    "codigo": "P0109-SUS",
+    "medicamento": "Metronidazol",
+    "forma": "Comprimido",
+    "concentracion": "500 mg",
+    "cantidad": 49,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "DAC091-SUS",
     "medicamento": "Microgotero",
     "forma": "Sobre estéril",
     "concentracion": "c/deposito rigido 100ml-150ml",
-    "cantidad": 100,
+    "cantidad": 96,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "L0127-LCC-SUS",
+    "medicamento": "Mitomicina",
+    "forma": "Inyectable",
+    "concentracion": "20 mg",
+    "cantidad": 35,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3499,7 +3649,7 @@
     "medicamento": "Morfina",
     "forma": "Cápsula o Comprimido",
     "concentracion": "10 mg",
-    "cantidad": 179,
+    "cantidad": 149,
     "observacion": "SIN RESTRICCION",
     "baja_rotacion": false,
     "controlado": "estupefaciente"
@@ -3530,7 +3680,7 @@
     "medicamento": "Omeprazol",
     "forma": "Cápsula",
     "concentracion": "20 mg",
-    "cantidad": 200,
+    "cantidad": 647,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3540,7 +3690,7 @@
     "medicamento": "Omeprazol",
     "forma": "Inyectable",
     "concentracion": "40 mg/ml",
-    "cantidad": 253,
+    "cantidad": 186,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3550,7 +3700,7 @@
     "medicamento": "Ondansetrón",
     "forma": "Comprimido",
     "concentracion": "8 mg",
-    "cantidad": 800,
+    "cantidad": 384,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3560,7 +3710,7 @@
     "medicamento": "Ondansetrón",
     "forma": "Inyectable",
     "concentracion": "8 mg",
-    "cantidad": 1045,
+    "cantidad": 214,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3573,7 +3723,7 @@
     "medicamento": "Oxaliplatino",
     "forma": "Inyectable",
     "concentracion": "100 mg",
-    "cantidad": 141,
+    "cantidad": 138,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3587,7 +3737,7 @@
     "medicamento": "Oxígeno",
     "forma": "Gas",
     "concentracion": "93% - 99%",
-    "cantidad": 200,
+    "cantidad": 196,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3597,7 +3747,7 @@
     "medicamento": "Paclitaxel",
     "forma": "Inyectable",
     "concentracion": "300 mg/50 ml",
-    "cantidad": 670,
+    "cantidad": 667,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3611,7 +3761,7 @@
     "medicamento": "Paracetamol (Acetaminofeno)",
     "forma": "Comprimido",
     "concentracion": "500 mg",
-    "cantidad": 498,
+    "cantidad": 491,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3635,7 +3785,7 @@
     "medicamento": "Pregabalina",
     "forma": "Comprimido o Cápsula",
     "concentracion": "50 mg",
-    "cantidad": 120,
+    "cantidad": 90,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3645,7 +3795,7 @@
     "medicamento": "Rituximab",
     "forma": "Inyectable",
     "concentracion": "500 mg/50 ml",
-    "cantidad": 33,
+    "cantidad": 36,
     "observacion": "",
     "baja_rotacion": false,
     "alertas": [
@@ -3659,7 +3809,7 @@
     "medicamento": "Solución de glucosa",
     "forma": "Solución paren de gran volu",
     "concentracion": "5% (500 ml)",
-    "cantidad": 65,
+    "cantidad": 31,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3669,7 +3819,7 @@
     "medicamento": "Solución de glucosa",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "5% (1.000 ml)",
-    "cantidad": 36,
+    "cantidad": 33,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3679,7 +3829,7 @@
     "medicamento": "Solución Fisiológica",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "0,9% (500 ml)",
-    "cantidad": 2334,
+    "cantidad": 2221,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3689,7 +3839,7 @@
     "medicamento": "Solución Fisiológica",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "0,9% (1.000 ml)",
-    "cantidad": 220,
+    "cantidad": 142,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3699,7 +3849,7 @@
     "medicamento": "Solución ringer lactato",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "1000 ml",
-    "cantidad": 35,
+    "cantidad": 31,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3709,7 +3859,7 @@
     "medicamento": "Solución ringer normal",
     "forma": "Solución parenteral de gran vo",
     "concentracion": "1000 ml",
-    "cantidad": 34,
+    "cantidad": 31,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3725,11 +3875,31 @@
   },
   {
     "programa": "cancer",
+    "codigo": "DSD026-SUS",
+    "medicamento": "Sonda Foley N° 16",
+    "forma": "Sobre estéril",
+    "concentracion": "2 vías N° 16 c/pico luer",
+    "cantidad": 7,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
+    "codigo": "DSD041-SUS",
+    "medicamento": "Sonda nasogástrica N° 16",
+    "forma": "Sobre estéril",
+    "concentracion": "N° 16",
+    "cantidad": 9,
+    "observacion": "",
+    "baja_rotacion": false
+  },
+  {
+    "programa": "cancer",
     "codigo": "B0533-SUS",
     "medicamento": "Sulfato de Magnesio",
     "forma": "Inyectable",
     "concentracion": "10%",
-    "cantidad": 48,
+    "cantidad": 45,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3739,7 +3909,7 @@
     "medicamento": "Tapón heparinizado",
     "forma": "Pieza",
     "concentracion": "Pieza",
-    "cantidad": 48,
+    "cantidad": 44,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3749,7 +3919,7 @@
     "medicamento": "Temozolomida",
     "forma": "Cápsula",
     "concentracion": "100 mg",
-    "cantidad": 1017,
+    "cantidad": 1003,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [
@@ -3759,24 +3929,11 @@
   },
   {
     "programa": "cancer",
-    "codigo": "L0151-LCC-SUS",
-    "medicamento": "Temozolomida",
-    "forma": "Cápsula",
-    "concentracion": "20 mg",
-    "cantidad": 5,
-    "observacion": "",
-    "baja_rotacion": true,
-    "alertas": [
-      "ruptura"
-    ]
-  },
-  {
-    "programa": "cancer",
     "codigo": "N0214-SUS",
     "medicamento": "Tramadol",
     "forma": "Inyectable",
     "concentracion": "100 mg/2 ml",
-    "cantidad": 297,
+    "cantidad": 292,
     "observacion": "",
     "baja_rotacion": false
   },
@@ -3838,7 +3995,7 @@
     "medicamento": "Vincristina",
     "forma": "Inyectable",
     "concentracion": "1 mg/ml (1ML)",
-    "cantidad": 174,
+    "cantidad": 172,
     "observacion": "",
     "baja_rotacion": true,
     "alertas": [

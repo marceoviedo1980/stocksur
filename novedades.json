@@ -1,5 +1,145 @@
 [
   {
+    "fecha": "2026-11-24",
+    "tipo": "sinstock",
+    "codigo": "L0151-LCC-SUS",
+    "nombre": "Temozolomida 20 mg Cápsula",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "DAC029-SUS",
+    "nombre": "Bolsa simple de transfusión (sangría) Pieza Sobre estéril",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "DSD041-SUS",
+    "nombre": "Sonda nasogástrica N° 16 N° 16 Sobre estéril",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "DSD026-SUS",
+    "nombre": "Sonda Foley N° 16 2 vías N° 16 c/pico luer Sobre estéril",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "L0127-LCC-SUS",
+    "nombre": "Mitomicina 20 mg Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "P0109-SUS",
+    "nombre": "Metronidazol 500 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "L0204-LCC-SUS",
+    "nombre": "Letrozol 2,5 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "L0120-LCC-SUS",
+    "nombre": "Ifosfamida 1 g Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "J0141-SUS",
+    "nombre": "Dicloxacilina sódica 500 mg Cápsula",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "J0137-SUS",
+    "nombre": "Cotrimoxazol (Sulfametoxazol + Trimetoprima) 800 mg + 160 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "L0109-LCC-SUS",
+    "nombre": "Cisplatino 50 mg Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "DAC068-SUS",
+    "nombre": "Catéter venoso periférico (N°24) Nº 24 Gx1/2\" c/aletas de fij. Sobre estéril",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "A0304-SUS",
+    "nombre": "Butilbromuro de Hioscina (Butilescopolamina) 20 mg/ml Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "J0113-SUS",
+    "nombre": "Azitromicina 500 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "J0104-SUS",
+    "nombre": "Amikacina 500mg /2 ml Inyectable",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "L0209-LCC-SUS",
+    "nombre": "Abiraterona Acetato 250 mg Comprimido",
+    "programa": "cancer"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "sinstock",
+    "codigo": "J0127-SUS",
+    "nombre": "Ciprofloxacina 500 mg Comprimido",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "DTO023-SUS",
+    "nombre": "Máscara para nebulización Para adultos Pieza",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "J0141-SUS",
+    "nombre": "Dicloxacilina sódica 500 mg Cápsula",
+    "programa": "renal"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tipo": "ingreso",
+    "codigo": "H0204-SUS",
+    "nombre": "Dexametasona 4 mg/ml Inyectable",
+    "programa": "renal"
+  },
+  {
     "fecha": "2026-11-23",
     "tipo": "ingreso",
     "codigo": "DSD040-PR",
