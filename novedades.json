@@ -2,6 +2,13 @@
   {
     "fecha": "2026-11-26",
     "tipo": "sinstock",
+    "codigo": "R0311-SUS",
+    "nombre": "Salmeterol + Fluticasona 25 mcg + 125 mcg Aerosol",
+    "programa": "sus"
+  },
+  {
+    "fecha": "2026-11-26",
+    "tipo": "sinstock",
     "codigo": "H0209-SUS",
     "nombre": "Prednisona 20 mg Comprimido ranurado",
     "programa": "sus"
